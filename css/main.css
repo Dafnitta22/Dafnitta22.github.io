@@ -1,0 +1,45 @@
+body {
+    font-size: 18px;
+    line-height:1.5;
+    background-color: rgb(231, 227, 227);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header, nav, main,footer {
+    margin: 1.5rem auto;
+    max-width: 960px;
+}
+
+header {
+    background-color:rgb(74, 136, 98) ;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 25px;
+    width: 940px;
+
+}
+
+p img{
+    float: right;
+    margin-top : -350px;
+    border: 1px solid rgb(105, 103, 103);
+    width: 200px;
+    height: 250px;
+
+}
+footer {
+    background-color: rgb(74, 136, 98);
+    color: #fff;
+    text-align: center;
+    border-radius: 15px;
+}
+footer a {
+    color: #fff
+
+}
+
+div {
+    font-size: 12px;
+    color: yellowgreen;
+
+}
