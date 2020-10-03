@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body {
+    font-family: 'PT Serif', serif;
+    font-size: 10px;
+    line-height:1.5;
+    background-color: #EEE5E5;
+}
+
+header, main, footer {
+    margin: 1.5rem auto;
+    max-width: 960px;
+    text-align: center;
+}
+
+
+header {
+    background-color: #28AFB0;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 2px;
+    text-decoration: none;
+}
+
+nav ul li{
+    display: inline;
+    text-decoration: none;
+}
+
+
+
+footer {
+    background-color: #28AFB0;
+    color: #37392E;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
