@@ -36,6 +36,17 @@ nav ul li{
 }
 
 
+main section img {
+    width: 230px;
+    height: auto;
+}
+
+.content-color img {
+    width: 100;
+    height: auto; 
+}
+
+
 
 footer {
     background-color: #28AFB0;
