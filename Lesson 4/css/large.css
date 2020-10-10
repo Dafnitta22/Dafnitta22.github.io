@@ -1,0 +1,65 @@
+@media only screen and (mind-width: 64rem) {
+
+
+    header {
+        display: flex;
+        margin: 0px;
+        padding: 10px 0;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(195, 248, 250);
+        font-size: 25px;
+        font-weight: bold;
+
+    }
+
+    
+nav ul li a {padding: 0.6rem 1em;}
+
+nav {
+    background:#28AFB0;
+    margin: 0 auto;
+    padding: 1.2 em;
+    max-width: 100%;
+}
+.primarynav li {
+    display: block;
+    flex: 1 1 auto;
+}
+
+.primarynav a {
+    display: center;
+}
+
+.primarynav li:first-child {
+    display: none;
+}
+
+
+
+
+
+
+nav ul {margin:0px;}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0,0,0,0.3);
+    padding: 0.8rem 1rem;
+    list-style-type: none;
+}
+
+}
+
+
+
+/*----CLearfix: Force an Element not to collapse----*/
+.clearfinx:after {
+    content:"";
+    display: table;
+    clear: both;
+ }
