@@ -6,8 +6,6 @@ body {
 }
 
 
-   
-
 header img {
         width: 130px;
         height: auto;  
@@ -85,7 +83,7 @@ footer {
     background-color: #28AFB0;
     color:white;
     text-align: center;
-    margin: 0px;
+    margin: 0px 80px;
     font-size: 14px;
 }
 
@@ -97,20 +95,22 @@ footer a {
 
 .copyright {
     font-size: 14px;
-    margin-bottom: -20px;
+    margin-bottom: -30px;
+    padding: 10px;
+
 }
 
 .currentdate {
     font-size: 12px;
+    margin-bottom: 50px;
+}
+
+a:hover {
+    color: yellow;
 }
 
 
+
 }
 
 
-/*----CLearfix: Force an Element not to collapse----*/
-.clearfinx:after {
-    content:"";
-    display: table;
-    clear: both;
- }

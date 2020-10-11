@@ -1,7 +1,6 @@
 @media only screen and (mind-width: 64rem) {
 
-
-    header {
+header {
         display: flex;
         margin: 0px;
         padding: 10px 0;
@@ -19,7 +18,7 @@ nav ul li a {padding: 0.6rem 1em;}
 nav {
     background:#28AFB0;
     margin: 0 auto;
-    padding: 1.2 em;
+    padding: 5px;
     max-width: 100%;
 }
 .primarynav li {
@@ -27,16 +26,10 @@ nav {
     flex: 1 1 auto;
 }
 
-.primarynav a {
-    display: center;
-}
 
 .primarynav li:first-child {
     display: none;
 }
-
-
-
 
 
 
@@ -56,10 +49,3 @@ nav ul li a {
 }
 
 
-
-/*----CLearfix: Force an Element not to collapse----*/
-.clearfinx:after {
-    content:"";
-    display: table;
-    clear: both;
- }
