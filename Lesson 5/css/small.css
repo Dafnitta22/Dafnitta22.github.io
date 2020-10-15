@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body, main {
+
+font-size: 12px;
+font-family: 'PT Serif', serif;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    
+}
+
+main .optionslist {
+    justify-content: center;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    margin: 0px;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(195, 248, 250);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+header img {
+    width: 90px;
+    height: auto;
+    
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    margin: 2px 10px;
+    padding: 2px 8px;
+}
+
+.motto {
+    margin-bottom: 5px;
+    margin-top: -20px;
+    font-weight: normal;
+}
+
+
+nav {
+    background-color: #28AFB0;
+    margin: 0 auto;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.8rem 2%;
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
+    list-style-type: none;
+    
+}
+.primarynav li:first-child {
+    display: block;
+    text-align: center;
+    color: white;
+}
+
+.primarynav {
+    list-style: none;
+    padding: 0;
+}
+
+.primarynav a {
+    display: block;
+}
+
+.primarynav li {
+    display: none;
+}
+
+
+.responsive li {
+    display: block;
+    
+}
+
+
+main {
+background-color: #EEE5E5;
+margin: 0 auto;
+
+}
+
+.town {
+    text-align: center;
+}
+
+.mountain {
+   width: 100%;
+   height: auto;
+}
+
+.weathersummary {
+    display: block;
+    font-display: center;
+
+}
+
+main div {
+    margin: 20px 80px;
+    border-style: groove;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #28AFB0;
+    color:white;
+    text-align: center;
+    margin: 0px;
+    font-size: 12px;
+    padding: 8px;
+}
+
+footer a {
+    list-style-type: none; 
+    text-decoration: none;
+    color: white;
+    
+}
+
+.copyright {
+    font-size: 12px;
+    margin-bottom: -15px;
+}
+
+a:hover {
+    color: yellow;
+}
+
+
+nav ul li .active a{
+    background-color: rgba(0,0,0,0.2); color:#fff;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.4);
+}
+
+
+
+
+
+
+
+

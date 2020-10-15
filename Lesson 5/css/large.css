@@ -1,0 +1,70 @@
+@media only screen and (min-width: 54em) {
+
+body, main {
+
+    font-size: 18px;
+
+    }
+
+
+header {
+
+    display: flex;
+    margin: 0px;
+    padding: 10px 0;
+    align-items: left;
+    justify-content: left;
+    background-color: rgb(195, 248, 250);
+    font-size: 25px;
+    font-weight: bold;
+
+    }
+
+nav ul li  {
+    float: left;
+    }
+    
+
+nav ul li a {
+    border: none;
+    margin: 0;
+    list-style-type: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 18px;
+}
+
+nav ul {
+    margin-left: 120px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background:#28AFB0;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+}
+.primarynav li {
+    display: block;
+    margin: 0px 40px;
+    
+}
+
+
+.primarynav li:first-child {
+    display: none;
+}
+
+nav ul li .active a {
+    background-color: rgba(0,0,0,0.2); color:#fff;
+    padding: 0.8rem 1.5rem;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.4);
+    padding: 0.8rem 1.5rem;
+}
+
+]
+
