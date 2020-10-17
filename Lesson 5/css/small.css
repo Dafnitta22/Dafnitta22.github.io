@@ -7,6 +7,13 @@ font-family: 'PT Serif', serif;
 
 }
 
+.message {
+    display: none;
+    border: 15px;
+    margin: 20px;
+    background-color: #EEE5E5;
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -19,12 +26,16 @@ main .optionslist {
     text-align: center;
 }
 
+.active {
+  color: black;
+}
+
 header {
     display: flex;
     margin: 0px;
     padding: 10px 0;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     background-color: rgb(195, 248, 250);
     font-size: 15px;
     font-weight: bold;
@@ -33,6 +44,7 @@ header {
 header img {
     width: 90px;
     height: auto;
+    margin-left: 20px;
     
 }
 
@@ -49,6 +61,16 @@ header img {
     font-weight: normal;
 }
 
+
+.ham {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: black;
+    
+}
 
 nav {
     background-color: #28AFB0;
@@ -81,9 +103,12 @@ nav ul li a {
     color: white;
 }
 
+
 .primarynav {
     list-style: none;
     padding: 0;
+    justify-content: center;
+
 }
 
 .primarynav a {
@@ -108,23 +133,41 @@ margin: 0 auto;
 }
 
 .town {
-    text-align: center;
+    text-align: left;
+    margin-left: 20px;
 }
 
 .mountain {
    width: 100%;
-   height: auto;
+   height: 200px;
+    
+}
+
+.heroimage {
+    border-style: none; 
 }
 
 .weathersummary {
     display: block;
     font-display: center;
-
+    background-color: rgba(126, 134, 20);
+    color: white;
+    border-style: none;
+    padding: 5px;
+    font-family: 'PT Serif', serif;
 }
 
+    
+
 main div {
-    margin: 20px 80px;
+    margin: 20px;
     border-style: groove;
+}
+
+.articleimg {
+   width: 100%;
+   height: 200px;
+   
 }
 
 footer {
@@ -135,7 +178,50 @@ footer {
     text-align: center;
     margin: 0px;
     font-size: 12px;
-    padding: 8px;
+    padding: 0px;
+}
+
+
+.mapinfo {
+
+    background-color: rgb(195, 248, 250); 
+    width: auto;
+    height: 250px;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+
+.mapouter {
+    position: relative;
+    text-align: center;
+    width: auto;
+    height: 100px;
+    padding: 15px;
+    
+    
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    width: auto;
+    height: 100px;
+    
+}
+
+.contactinfo {
+    color: black;
+    text-align: left;
+    padding: 0px 5px 10px 30px;
+}   
+
+.socialicon img {
+   width: 20px;
+   height: 20px;
+   align-items: left;
+
 }
 
 footer a {
@@ -147,7 +233,8 @@ footer a {
 
 .copyright {
     font-size: 12px;
-    margin-bottom: -15px;
+    margin-bottom: -25px;
+    padding: 8px;
 }
 
 a:hover {
