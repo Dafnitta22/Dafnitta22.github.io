@@ -35,7 +35,6 @@ nav ul {margin-left: 35px;}
 header {
     display: flex;
     padding: 10px 0;
-    align-items: left;
     justify-content: left;
     background-color: rgb(195, 248, 250);
     font-size: 20px;
