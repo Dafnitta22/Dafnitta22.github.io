@@ -42,12 +42,15 @@
 
     <section class="optionslist">
     <div class="heroimage">
-    <img class="mountain" src="images/pexels-spencer-gurley-1463975.jpg" alt="Plants and Mountain Picture">
+    <figure class="newhero">
+    <img class="mountain" alt="Plants and Mountain Picture"
+    srcset="images/small.png 1x, images/medium.png 2x, images/large.png 3x">
+    </figure>
     </div>
     <div class="weathersummary">
         <h3>Weather Summary</h3>
         <p>Currently: Sunny</p>
-        <p>High: 66 &#8457;</p>
+        <p>Temp: <span id="currenttemp">66</span>&#8457;</p>
         <p>Humidity: 22% </p>
         <p>Wind: 13mph</p>
     </div>
@@ -125,5 +128,7 @@
 <script src="js/hamburger.js"></script>
 <script src="js/currentday.js"></script>
 <script src="js/pancake.js"></script>
+<script src="js/windchill.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
 </body>
 </html>

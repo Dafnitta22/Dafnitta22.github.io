@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');*/
 
 body, main {
 
@@ -133,12 +133,11 @@ margin: 0 auto;
     margin-left: 20px;
 }
 
+  
 .mountain {
-   width: 100%;
-   height: 200px;
-    
+    width: 100%;
+    height: 75px;
 }
-
 .heroimage {
     border-style: none; 
 }
