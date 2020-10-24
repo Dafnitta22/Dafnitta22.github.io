@@ -41,12 +41,13 @@
     </section>
 
     <section class="optionslist">
-    <div class="heroimage">
-    <figure class="newhero">
-    <img class="mountain" alt="Plants and Mountain Picture"
-    srcset="images/small.png 1x, images/medium.png 2x, images/large.png 3x">
-    </figure>
-    </div>
+    <picture>
+
+        <source media="(min-width= 700px)" srcset="images/large-image.jpg">  
+        <source media="(min-width= 500px)" srcset="images/medium-image.jpg"> 
+        <img src="images/small-image.jpg"  alt="Plants and Mountain Picture">   
+
+    </picture>
     <div class="weathersummary">
         <h3>Weather Summary</h3>
         <p>Currently: Sunny</p>
@@ -129,6 +130,7 @@
 <script src="js/currentday.js"></script>
 <script src="js/pancake.js"></script>
 <script src="js/windchill.js"></script>
+<script src="js/webfontload.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
 </body>
 </html>
