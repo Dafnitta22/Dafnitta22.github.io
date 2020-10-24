@@ -84,9 +84,11 @@ nav ul li a:hover {
     margin-left: 200px;
 }
 
-main picture {
+main div picture {
     max-width: 100%;
     height: auto;
+    margin:0;
+    border-style: none;
 }
 .weathersummary {
     position: absolute;

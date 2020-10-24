@@ -134,9 +134,11 @@ margin: 0 auto;
 }
 
   
-main picture {
+main div picture {
     max-width: 100%;
     height: auto;
+    margin: 0;
+    border-style: 0;
 }
 
 .weathersummary {
