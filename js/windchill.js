@@ -8,7 +8,7 @@ function windchill() {
         document.getElementById("wc").innerHTML = output + (Math.round(f)) + "&#8457;";  
     }
     else {
-        document.getElementById("wc").innerHTML = N/A;  
+        document.getElementById("wc").innerHTML = "N/A";  
     }
 }
 function totalwc(t,s) {
