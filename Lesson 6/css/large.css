@@ -84,11 +84,15 @@ nav ul li a:hover {
     margin-left: 200px;
 }
 
-main .optionslist div picture {
+div .responsive {
+    border-style: none;
+}
+
+picture .original {
+    display: block;
     width: 100%;
     height: auto;
     margin: 0;
-    border-style: 0;
 }
 
 .weathersummary {

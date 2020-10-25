@@ -130,14 +130,16 @@ margin: 0 auto;
     margin-left: 20px;
 }
 
+div .responsive {
+    border-style: none;
+}
 
-  
-main .optionslist div picture {
-   
-    max-width: 100%;
+picture .original {
+    display: block;
+    width: 100%;
     height: auto;
     margin: 0;
-    border-style: 0;
+    
 }
 
 .weathersummary {

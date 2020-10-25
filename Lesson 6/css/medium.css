@@ -79,12 +79,15 @@ main div {
     margin: 0px 60px;
     border-style: groove;
 }
+div .responsive {
+    border-style: none;
+}
 
-main .optionslist div picture {  
+picture .original { 
+    display: block; 
     width: 100%;
     height: auto;
     margin: 0;
-    border-style: 0;
 }
 
 .forcast {
@@ -136,7 +139,6 @@ footer a {
 
 .mappic {
     display: flex;
-    flex-direction: left;
     width: 180px;
     height: 120px;
     justify-content: left;
@@ -168,10 +170,6 @@ nav ul li a:hover {
     background-color: rgba(0,0,0,0.4);
     padding: 0.5rem 0.1rem;
 }
-
-
-
-
 
 
 }
