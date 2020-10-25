@@ -84,12 +84,13 @@ nav ul li a:hover {
     margin-left: 200px;
 }
 
-main div picture {
-    max-width: 100%;
+main .optionslist div picture {
+    width: 100%;
     height: auto;
-    margin:0;
-    border-style: none;
+    margin: 0;
+    border-style: 0;
 }
+
 .weathersummary {
     position: absolute;
     top: 300px;
@@ -99,20 +100,45 @@ main div picture {
     box-shadow: 0px 0px 15px grey;
     padding: 15px;
     color: white;
-
     
+   
 }
+
+.weathersummary h3 {
+    text-align: center;
+
+}
+
+.weathersummary ul li {
+    text-decoration: none;
+    text-align: center;
+    list-style-type: none;
+}
+
+
 
 main div {
     margin: 20px 200px;
     border-style: groove;
 }
 
-table {
+.forcast {
+    display: block;
     width: auto;
     height: 200px;
-    margin-left: 60px;
+    
 }
+.forcast h2 {
+    display: block;
+    text-align: center;
+}
+
+.fiveday {
+    display: block;
+    
+}
+
+
 
 .weathericons td img {
     width: 50px;
@@ -127,11 +153,8 @@ table {
     justify-content: right;
     text-align: left;
     margin-left: 1100px;
-   
 
 }   
-
-
 
 
 .articleimg {
@@ -146,6 +169,11 @@ table {
 .mapinfo {
     display: flex;
     flex-direction: row;
+}
+.mappic {
+    display: flex;
+    width: 200px;
+    height: 150px;
 }
 
 .mapouter {

@@ -65,22 +65,45 @@ nav ul li a {
     display: none;
 }
 
+.weathersummary h3 {
+    text-align: center;
+
+}
 
 .town {
     text-align: left;
     margin-left: 60px;
-}
-main div picture {
-    max-width: 100%;
-    height: auto;
-    margin:0;
-    border-style: none;
 }
 
 main div {
     margin: 0px 60px;
     border-style: groove;
 }
+
+main .optionslist div picture {  
+    width: 100%;
+    height: auto;
+    margin: 0;
+    border-style: 0;
+}
+
+.forcast {
+    display: block;
+    width: auto;
+    height: 200px;
+
+}
+.forcast h2 {
+    text-align: center;
+    
+}
+
+.fiveday {
+    display: block;
+    justify-content: center;
+   
+}
+
 
 footer {
     display: flex;
@@ -96,6 +119,28 @@ footer a {
     list-style-type: none; 
     text-decoration: none;
     color: white;
+}
+
+.contactinfo {
+    justify-content: right;
+    text-align: left;
+    margin-left: 400px;
+
+}   
+
+
+.mapinfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.mappic {
+    display: flex;
+    flex-direction: left;
+    width: 180px;
+    height: 120px;
+    justify-content: left;
+
 }
 
 .copyright {

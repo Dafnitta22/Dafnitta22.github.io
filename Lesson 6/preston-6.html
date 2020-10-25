@@ -43,26 +43,27 @@
     <section class="optionslist">
     <div>
     <picture>
-        <source media="(min-width= 700px)" srcset="./images/large-image.jpg">  
-        <source media="(min-width= 500px)" srcset="./images/medium-image.jpg"> 
-        <source media="(max-width= 499px)" srcset="./images/small-image.jpg">      
+        <source media="(min-width: 864px)" srcset="./images/large-image.jpg">  
+        <source media="(min-width: 560px)" srcset="./images/medium-image.jpg"> 
+        <source media="(max-width: 5590px)" srcset="./images/small-image.jpg">      
         <img src="images/original-image.jpg"  alt="Plants and Mountain Picture">   
     </picture>
     </div>
     <div class="weathersummary">
         <h3>Weather Summary</h3>
-        <p>Currently: Sunny</p>
-        <p>Temp: <span id="currenttemp">66</span>&#8457;</p>
-        <p>Humidity: 22% </p>
-        <p>Wind Speed: <span id="currentmph">13</span>mph</p>
-        <p>WindChill: <span id="wc"></span></p>
+        <ul>
+        <li>Currently:<span> Sunny</li></span></li>
+        <li>Temp: <span id="currenttemp">47</span>&#8457;</li>
+        <li>Humidity: <span>22%</span></li>
+        <li>Wind Speed: <span id="currents">7</span>mph</li>
+        <li>WindChill: <span id="wc"></span></li>
+        </ul>
     </div>
     
 
-    <div>
-    
+    <div class="forcast">
     <h2>Five Day Forcast </h2>
-    <table>
+    <table class="fiveday" >
     <tr>
         <th>Monday</th>
         <th>Tuesday</th>
