@@ -1,4 +1,4 @@
-let imagesToLoad = document.querySelectorAll('img[data-src]');
+let imagesToLoad = document.querySelectorAll("img[data-src]");
 
 
 const imgOptions = {

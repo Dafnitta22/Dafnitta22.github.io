@@ -7,84 +7,33 @@
     <meta name="description" content="Lazy Load Activity">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">  
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">  
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="cssll/lazyloading.css"> 
 </head>
 
 <body>
     
-    <header>
-        <picture>
-            <img src="images/iconweather.png" alt="sun and cloud logo">
-        </picture>
-        <section class="headings">
-        <h1>Clime Check</h1>
-        <div class="motto">Just look before you go</div>
-        </section>
-    </header>
-    <nav class="clearfix">
-        <ul class="primarynav">
-            <li><a class="ham" href="#">&#9776;</a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="preston-4.html" class="active">Preston</a></li>
-            <li><a href="#">Soda Springs</a></li>
-            <li><a href="#">Fish Haven</a></li>
-            <li><a href="#">Storm Center</a></li>
-            <li><a href="#">Gallery</a></li>
-        </ul>
-    </nav>
+<header></header>
+    
 <main>
 
-<h1>Gallery Images</h1>
+<h1>Progressive Loading (Images)</h1>
 
-<picture><img src="images/placeholder.png" datasrc="images/orangeflowers.png" alt="Orange Flowers Picture"></picture>
+<picture><img src="images/placeholder.png" data-src="images/orangeflowers.png" alt="Orange Flowers Picture" /></picture>
 
-<picture><img src="images/placeholder.png" datasrc="images/trees.png" alt="Trees Picture"></picture>
+<picture><img src="images/placeholder.png" data-src="images/trees.png" alt="Trees Picture" /></picture>
 
-<picture><img src="images/placeholder.png" datasrc="images/greenwhite.png" alt="Green and White Picture"></picture>
+<picture><img src="images/placeholder.png" data-src="images/greenwhite.png" alt="Green and White Picture" /></picture>
 
-<picture><img src="images/placeholder.png" datasrc="images/plants.png" alt="Plants Picture"></picture>
+<picture><img src="images/placeholder.png" data-src="images/plants.png" alt="Plants Picture" /></picture>
 
-<picture><img src="images/placeholder.png" datasrc="images/duck.png" alt="Duck Picture"></picture>
+<picture><img src="images/placeholder.png" data-src="images/duck.png" alt="Duck Picture" /></picture>
 
-<picture><img src="images/placeholder.png" datasrc="images/bees.png" alt="Bees Picture"></picture>
-
-
-
+<picture><img src="images/placeholder.png" data-src="images/bees.png" alt="Bees Picture" /></picture>
 </main>
 
+<footer></footer>
 
-
-
-<footer>
-    <div class="mapinfo">
-        <div class="contactinfo">
-        <h2>Contact Information</h2>
-        <p>info@checkclime.com</p>
-        <p>&#9742; 802-458-4875</p>
-        
-<!--<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
-        <div class="socialicon">
-            <a href="https://www.facebook.com/login/"><img src="images/facebookicon.png" alt="Facebook"></a>
-            <a href="https://www.instagram.com/accounts/login/?hl=en"><img src="images/instagramicon.png" alt="Instagram"></a>
-            <a href="https://twitter.com/login?lang=en"><img src="images/twittericon.png" alt="Twitter"></a> 
-        </div>  
-        </div>
-    
-        <div class="mapouter">
-            <img class="mappic" src="images/map.png" alt="Preston Idaho Map">
-        </div>
-    </div>
-    <div class="copyright">&#169; <span id="currentyear"></span>| Maida Garcia | Arizona | <a href="https://www.byui.edu/online">BYUI Online Learning</a></div>
-    <br><br>
-    <div class="dayformat">Current Date: <span id="currentdate"></span></div>
-</footer>
-<script src="js/hamburger.js"></script>
-<script src="js/currentday.js"></script>
-<script src="js/windchill.js"></script>
 <script src="js/webfontload.js"></script>
 <script src="jsll/loading.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
