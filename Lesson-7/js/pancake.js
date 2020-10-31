@@ -1,8 +1,8 @@
 
-let nd = new Date();
-let d = nd.getDay();
+const nd = new Date();
 
-if (d == 5) {
-    document.querySelector('.message').style.display = "block";
-}
+const popup = document.querySelector('.message');
+
+if (nd.getDay()==5) popup.style.display ="block";
+
 
