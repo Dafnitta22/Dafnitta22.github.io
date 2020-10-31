@@ -72,13 +72,14 @@ main .gallery {
     grid-template-columns: 1fr 1fr;
     padding: 0px;
     grid-gap: 1px;
+    margin: auto;
 
 }
 
 main .gallery h1 {
     text-align: left;
-    grid-column: 1/4;
-    margin-left: 5px;
+    grid-column: 1/3;
+    margin-left: 35px;
 
 }
 

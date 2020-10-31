@@ -85,21 +85,20 @@ main .gallery {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0px;
     grid-gap: 2px;
+    margin: auto;
 
 }
 
 main .gallery h1 {
     text-align: left;
     grid-column: 1/4;
-    margin-left: 5px;
+    margin-left: 0px;
 
 }
 
 
-
-
 figure {
-    margin-left: 3px;
+    margin-left: 0px;
 }
 figure figcaption {
     font-size: 14px;
@@ -189,7 +188,7 @@ main div {
 .contactinfo {
     justify-content: right;
     text-align: left;
-    margin-left: 1100px;
+    margin-left: 1000px;
 
 }   
 
@@ -217,7 +216,7 @@ main div {
     position: absolute;
     height:300px;
     width:200px;
-    margin-left: 200px;
+    margin-left: 300px;
     margin-top: 150px;  
    
 }
