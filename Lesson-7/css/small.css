@@ -172,6 +172,27 @@ main div {
     border-style: groove;
 }
 
+
+/* Weather Gallery*/
+
+main .gallery h1 {
+   text-align: center;
+}
+
+main .gallery {
+    border-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: auto;
+    justify-content: center;
+}
+
+
+
+
+
+
 .mapouter {
     position: absolute;
     margin-left: 60px;

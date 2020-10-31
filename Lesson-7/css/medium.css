@@ -65,6 +65,28 @@ nav ul li a {
     display: none;
 }
 
+/*Weather Gallery*/
+
+main .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px;
+    grid-gap: 1px;
+
+}
+
+main .gallery h1 {
+    text-align: left;
+    grid-column: 1/4;
+    margin-left: 5px;
+
+}
+
+
+
+
+
+
 .weathersummary h3 {
     text-align: center;
 
