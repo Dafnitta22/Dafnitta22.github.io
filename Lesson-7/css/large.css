@@ -9,7 +9,7 @@ body, main {
 .message {
     display: none;
     border: 15px;
-    margin: 20px;
+    margin: 0px;
     background-color: #EEE5E5;
 }
 

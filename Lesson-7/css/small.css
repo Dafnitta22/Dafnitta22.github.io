@@ -10,8 +10,10 @@ font-family: 'PT Serif', serif;
 .message {
     display: none;
     border: 15px;
-    margin: 20px;
+    margin: 0px;
+    padding: 8px;
     background-color: #EEE5E5;
+    text-align: center;
 }
 
 main {
