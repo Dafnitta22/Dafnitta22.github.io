@@ -60,10 +60,6 @@ nav {
     
 }
 
-.active {
-    background:  rgb(195, 248, 250);
-    color: black;
-  }
 
 .primarynav li:first-child {
     display: none;
@@ -82,7 +78,7 @@ nav ul li a:hover {
 
 main .gallery {
     display: grid;
-    grid-template-columns: repeat (3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
     padding: 0;
     grid-gap: 10px;
     margin: auto;

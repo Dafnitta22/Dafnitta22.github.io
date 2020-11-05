@@ -182,7 +182,6 @@ main .gallery {
     display: grid;
     grid-template-columns: 1fr;
     margin: 0;
-    padding: auto;
     justify-content: center;
 }
 
@@ -287,9 +286,6 @@ footer a {
     margin-bottom: 10px;
 }
 
-.active {
-    color: black;
-}
 
 a:hover {
     color: yellow;
