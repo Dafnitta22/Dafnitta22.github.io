@@ -15,7 +15,7 @@ main table {
    width: 320px;
    height: 280px;  
    font-weight: 600;
-   box-shadow: 0 15px 15px 0 #628ca6;
+   box-shadow: 0 0 15px  #628ca6;
 
 }
 
