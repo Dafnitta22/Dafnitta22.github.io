@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Storm Center</title>
-    <meta name="description" content="Lesson 8: Preston Town Page-Sotrm Center">
+    <title>Thanks Page</title>
+    <meta name="description" content="Lesson 8: Preston Town-Thanks Page">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">  
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
@@ -36,93 +36,8 @@
     </ul>
 </nav>
 <main>
-    
-<h1>Forms</h1>
-<form action ="thanks.html"  method="get" class="mainform">
-<fieldset>
-   <legend>Personal Information</legend>
-   <label for="fullName">Full Name*
-   <input type="text" name="fullName" id="fullName" required pattern="[A-Za-z]+[A-Za-z]+.{5,}" >
-   </label>
-<br>   
-   <label for="email">Email
-   <input type="email" name="email" id="email" placeholder="info@climecheck.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
-   </label>
-<br>
-   <label for="tel">Phone Number*
-   <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="480-548-4789" required>
-   </label>
-<br>
-   <label for="zip">Zip Code*
-   <input type="number" id="zip" name="zip" required>
-   </label> 
-</fieldset>
-<fieldset>
-   <legend>Storm Information</legend>
-   <label for="sdate">Storm Date
-   <input type="date"id="sdate" name="sdate" placeholder="mm/dd/yyyy">
-   </label>
-<br>   
-   <label>Storm Type
-   <input list="storm-type" name="storm-type" name="storm-type">
-   <datalist id="storm-type">
-       <option value="Flash Flood">
-       <option value="Hail">
-       <option value="Hurricane">
-       <option value="Thunderstorm">
-       <option value="Tornado">
-   </datalist>
-   </label>
-
-<br>
-   <label class="srange" for="rating">Storm Severity (1 to 10) &nbsp;&nbsp;&nbsp;
-       <input type="range" id="rating" value="5" min="1" max="10"
-       step="1" list="tickmarks" oninput="adjustRating(this.value)"
-       onchange="adjustRating(this.value)">
-       <span id="stormrange">5</span>
-   
-   <datalist id="tickmarks">
-    <option value="0">
-    <option value="1">
-    <option value="2">
-    <option value="3">
-    <option value="4">
-    <option value="5">
-    <option value="6">
-    <option value="7">
-    <option value="8">
-    <option value="9">
-    <option value="10">
-   </datalist>
-   </label>
-<br>  
-   <label for="region">Storm Region
-    <select name="regionlist">
-    <option value="Please Select" selected="true" disabled="disable">Please Select</option>
-    <option value="Preston">Preston</option>
-    <option value="Soda Springs">Soda Springs</option>
-    <option value="Fish Haven">Fish Haven</option>
-    </select>
-    </label>
-<br>
-    <label class="udanger">User in-danger level
-            <label class="sbs"><input type="radio" name="user" value="yes">Yes</label><br>
-            <label class="sbs"><input type="radio" name="user" value="maybe">Maybe</label><br>
-            <label class="sbs"><input type="radio" name="user" value="no">No</label><br>
-    </label>
-<br>
-</fieldset>
-<fieldset>
-    <legend>Additional Information or Comments</legend>
-    <label for="story">
-    <textarea id="comments" name="comments" rows="8" cols="40">Enter comments here...</textarea>
-    </label>
-</fieldset>    
-
-<label class="sbutton"><input type="submit" value="Submit"></label>
-
-</form>
-
+<h1>Storm Center</h1>    
+<p>Thanks for filling this information. We will respond to you as soon as possible.</p>
 
 </main> 
 <footer>
