@@ -12,6 +12,7 @@ main {
 }
 
 main table {
+   font-family: 'Ubuntu', sans-serif;
    width: 320px;
    height: 280px;  
    font-weight: 600;

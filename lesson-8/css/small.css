@@ -185,9 +185,110 @@ main .gallery {
     justify-content: center;
 }
 
+/*-----------Form-----------*/
+
+form fieldset {
+   padding: 15px 35px 15px 10px;
+   margin: 35px 20px;
+   border: 1px solid gray;
+   border-radius: 15px;
+   font-weight: 500;
+
+}
+
+form legend {
+    padding: 0 10px;
+    margin: 0 15px;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+form label.top {
+    display: block;
+    font-size: 12px;
+    padding: 8px 30px;
+}
+
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+
+}
+
+form label.sinfor {
+    display: block;
+    padding: 10px 20px;
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+
+form label.sin {
+     display: block;
+     padding: 3px 30px;
+}
+
+#sdate {
+    font-size: 14px;
+    padding: 5px 45px;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+    
+}
+
+#stormtype{
+    font-size: 14px;
+    padding: 8px 40px;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+
+}
+
+#rating {
+    padding: 5px 40px;
+}
+
+#region {
+    font-size: 14px;
+    padding: 5px 65px; 
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+}
+
+
+main h1.scenter {
+    margin: 15px 0 5px 20px;
+}
+
+#comments {
+    padding: 10px 10px;
+    margin-left: 10px;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    padding: 8px 35px;
+    margin: 35px 20px;
+    font-weight: Bolder;
+    background-color: lightgray;
+    font-weight: bolder;
+}
 
 
 
+
+
+
+
+/*-------------Map----------*/
 .mapouter {
     position: absolute;
     margin-left: 60px;

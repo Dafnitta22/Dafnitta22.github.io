@@ -28,43 +28,43 @@
     <ul class="primarynav">
         <li><a class="ham" href="#">&#9776;</a></li>
         <li><a href="#">Home</a></li>
-        <li><a href="/Lesson-7/preston-7.html" class="active">Preston</a></li>
+        <li><a href="/lesson-8/preston-8.html" class="active">Preston</a></li>
         <li><a href="#">Soda Springs</a></li>
         <li><a href="#">Fish Haven</a></li>
         <li><a href="/lesson-8/stormcenter.html">Storm Center</a></li>
-        <li><a href="/Lesson-7/gallery-7.html">Gallery</a></li>
+        <li><a href="/lesson-8/gallery-8.html">Gallery</a></li>
     </ul>
 </nav>
 <main>
     
-<h1>Forms</h1>
+<h1 class="scenter">Storm Center</h1>
 <form action ="thanks.html"  method="get" class="mainform">
 <fieldset>
    <legend>Personal Information</legend>
-   <label for="fullName">Full Name*
+   <label class="top" for="fullName">Full Name*
    <input type="text" name="fullName" id="fullName" required pattern="[A-Za-z]+[A-Za-z]+.{5,}" >
    </label>
 <br>   
-   <label for="email">Email
+   <label class="top"  for="email">Email
    <input type="email" name="email" id="email" placeholder="info@climecheck.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
    </label>
 <br>
-   <label for="tel">Phone Number*
-   <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="480-548-4789" required>
+   <label class="top" for="tel">Phone Number*
+   <input type="tel" id="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="480-548-4789" required>
    </label>
 <br>
-   <label for="zip">Zip Code*
+   <label class="top" for="zip">Zip Code*
    <input type="number" id="zip" name="zip" required>
    </label> 
 </fieldset>
 <fieldset>
    <legend>Storm Information</legend>
-   <label for="sdate">Storm Date
-   <input type="date"id="sdate" name="sdate" placeholder="mm/dd/yyyy">
+   <label class="sinfor" for="sdate">Storm Date<br>
+   <input type="date" id="sdate" name="sdate">
    </label>
 <br>   
-   <label>Storm Type
-   <input list="storm-type" name="storm-type" name="storm-type">
+   <label class="sinfor" for="stormtype">Storm Type<br>
+   <input id="stormtype"  list="storm-type" name="storm-type">
    <datalist id="storm-type">
        <option value="Flash Flood">
        <option value="Hail">
@@ -75,12 +75,12 @@
    </label>
 
 <br>
-   <label class="srange" for="rating">Storm Severity (1 to 10) &nbsp;&nbsp;&nbsp;
+   <label class="sinfor" for="rating">Storm Severity (1 to 10)<br>&nbsp;&nbsp;&nbsp;
        <input type="range" id="rating" value="5" min="1" max="10"
        step="1" list="tickmarks" oninput="adjustRating(this.value)"
        onchange="adjustRating(this.value)">
-       <span id="stormrange">5</span>
-   
+       <span id="ratingvalue">5</span>
+   </label>
    <datalist id="tickmarks">
     <option value="0">
     <option value="1">
@@ -94,32 +94,32 @@
     <option value="9">
     <option value="10">
    </datalist>
-   </label>
+   
 <br>  
-   <label for="region">Storm Region
-    <select name="regionlist">
-    <option value="Please Select" selected="true" disabled="disable">Please Select</option>
+   <label class="sinfor" for="region">Storm Region<br>
+    <select id="region" name="regionlist" onchange="selectResponse()">
+    <option value=""  disabled>Please Select</option>
     <option value="Preston">Preston</option>
     <option value="Soda Springs">Soda Springs</option>
     <option value="Fish Haven">Fish Haven</option>
     </select>
     </label>
 <br>
-    <label class="udanger">User in-danger level
-            <label class="sbs"><input type="radio" name="user" value="yes">Yes</label><br>
-            <label class="sbs"><input type="radio" name="user" value="maybe">Maybe</label><br>
-            <label class="sbs"><input type="radio" name="user" value="no">No</label><br>
-    </label>
+    <label class="sinfor">User in-danger level<br><br></label>
+            <label class="sin"><input type="radio" name="user" value="yes">Yes</label><br>
+            <label class="sin"><input type="radio" name="user" value="maybe">Maybe</label><br>
+            <label class="sin"><input type="radio" name="user" value="no">No</label><br>
+    
 <br>
 </fieldset>
 <fieldset>
     <legend>Additional Information or Comments</legend>
-    <label for="story">
+    <label class="acomments" for="comments">
     <textarea id="comments" name="comments" rows="8" cols="40">Enter comments here...</textarea>
     </label>
 </fieldset>    
 
-<label class="sbutton"><input type="submit" value="Submit"></label>
+<label class="button"><input type="submit" value="Submit"></label>
 
 </form>
 
@@ -148,11 +148,11 @@
     <br><br>
     <div class="dayformat">Current Date: <span id="currentdate"></span></div>
 </footer>
-<script src="/Lesson-7/js/hamburger.js"></script>
-<script src="/Lesson-7/js/currentday.js"></script>
-<script src="/Lesson-7/js/pancake.js"></script>
-<script src="/Lesson-7/js/windchill.js"></script>
-<script src="/Lesson-7/js/webfontload.js"></script>
+<script src="/lesson-8/js/hamburger.js"></script>
+<script src="/lesson-8/js/currentday.js"></script>
+<script src="/lesson-8/js/pancake.js"></script>
+<script src="/lesson-8/js/windchill.js"></script>
+<script src="/lesson-8/js/webfontload.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
 </body>
 </html>

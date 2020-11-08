@@ -203,7 +203,59 @@ article h2 {
     border-style: none;
    
  }
+ 
+/*------Form------*/
 
+form fieldset {
+    padding: 15px 25px;
+    margin: 35px 100px;
+}
+
+
+
+form label.sinfor {
+    display: block;
+    padding: 15px 25px;
+    font-size: 14px;
+}
+
+main h1.scenter {
+    margin: 15px 0 5px 100px;
+}
+
+
+#sdate {
+    font-size: 14px;
+    padding: 5px 138px;
+}
+
+
+#stormtype{
+    font-size: 14px;
+    padding: 8px 135px;
+}
+
+#rating {
+    padding: 5px 120px;
+}
+
+#region {
+    font-size: 14px;
+    padding: 5px 160px;
+}
+
+
+#comments {
+    padding: 10px 35px;
+}
+
+input[type="submit"] {
+    padding: 8px 35px;
+    margin: 35px 100px;
+}
+
+
+/*--------------------*/
 .mapinfo {
     display: flex;
     flex-direction: row;
