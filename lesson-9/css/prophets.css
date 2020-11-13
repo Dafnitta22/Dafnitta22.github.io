@@ -8,7 +8,7 @@ body {
 
 h1 {
     font-size: 60px;
-    color: Black;
+    color: rgb(243, 240, 197);
     font-weight: bolder;
 }
 
@@ -41,6 +41,7 @@ footer {
   font-weight: bolder;  
   padding: 15px;
   font-size: 14px;
+  color: rgb(243, 240, 197);
 }
 
 @media only screen and (min-width: 35em) {
