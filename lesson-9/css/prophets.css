@@ -2,7 +2,8 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
     font-weight: 600;
-    text-align: center;   
+    text-align: center;  
+    background-color: rgb(168, 168, 125); 
 }
 
 h1 {
@@ -19,7 +20,7 @@ h2 {
 
 section {
     border: groove 2px darkgrey;
-    background-color: lightgray;
+    background-color: rgb(243, 240, 197);
     margin: 8px;
     padding: 12px;
 }
@@ -39,6 +40,7 @@ img {
 footer {
   font-weight: bolder;  
   padding: 15px;
+  font-size: 14px;
 }
 
 @media only screen and (min-width: 35em) {
