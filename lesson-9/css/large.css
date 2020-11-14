@@ -256,6 +256,17 @@ input[type="submit"] {
 
 
 /*--------------------*/
+
+
+/* -----  Cards -------*/
+.towncards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+
 .mapinfo {
     display: flex;
     flex-direction: row;

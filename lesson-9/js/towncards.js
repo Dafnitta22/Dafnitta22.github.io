@@ -9,7 +9,7 @@ fetch(requestURL)
     const towns = jsonObject['towns'];
 
     for (let i = 0; i < towns.length; i++) {  
-      if (towns[i].name == 'Preston' || towns[i].name == 'Soda Springs' || towns[i].name == 'Fish Haven') { 
+        if (towns[i].name == 'Preston' || towns[i].name == 'Soda Springs' || towns[i].name == 'Fish Haven') { 
     
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
@@ -44,7 +44,7 @@ fetch(requestURL)
         document.querySelector('div.towncards').appendChild(card);
         
     }
-  }
+ }
 
 });
 
