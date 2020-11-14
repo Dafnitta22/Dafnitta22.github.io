@@ -19,11 +19,14 @@ fetch(requestURL)
         let p3 = document.createElement ('p');
         let image = document.createElement ('img');
 
+
         h2.textContent = towns[i].name;
         h3.textContent = towns[i].motto;
         p1.textContent = 'Year Founded: ' + towns[i].yearFounded;
         p2.textContent = 'Population: ' + towns[i].currentPopulation;
         p3.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
+
+       
         if(towns[i].name == 'Preston') {
         image.setAttribute('src', src="");
         image.setAttribute('alt', towns[i].name + " - " + towns[i].motto);
