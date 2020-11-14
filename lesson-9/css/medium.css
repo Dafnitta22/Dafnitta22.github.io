@@ -179,6 +179,18 @@ input[type="submit"] {
 }
 
 /*--------------*/
+/*-----  Cards -------*/
+.towncards {
+    display: grid;
+    grid-template-columns: 1fr ;
+    justify-content: center;
+}
+
+
+
+
+
+/*-------Footer------*/
 footer {
     display: flex;
     flex-direction: column;

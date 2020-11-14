@@ -28,13 +28,13 @@ fetch(requestURL)
 
        
         if(towns[i].name == 'Preston') {
-        image.setAttribute('src', src="");
+        image.setAttribute('src', src="images/pexels-eberhard-grossgasteiger-4406222-small.png");
         image.setAttribute('alt', towns[i].name + " - " + towns[i].motto);
         } else if (towns[i].name == 'Soda Springs') {
-        image.setAttribute('src', src="");
+        image.setAttribute('src', src="images/pexels-nicolas-becker-5667388-small.png");
         image.setAttribute('alt', towns[i].name + " - " + towns[i].motto);
         } else {
-        image.setAttribute('src', src="");
+        image.setAttribute('src', src="images/frank-t-1Fo6vjLSLEE-unsplash-small.png");
         image.setAttribute('alt', towns[i].name + " - " + towns[i].motto);
         } 
 

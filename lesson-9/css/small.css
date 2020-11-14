@@ -282,6 +282,29 @@ input[type="submit"] {
     font-weight: bolder;
 }
 
+/*------- Cards-------*/
+.heroimage {
+    border-style: none;
+}
+
+.towncards section { 
+    border: groove 2px darkgrey;
+    background-color: rgb(243, 240, 197);
+    margin: 8px;
+    padding: 12px;
+    text-align: center;
+}
+
+.towncards {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    border-style: none;
+
+}
+
+
+
 
 
 
