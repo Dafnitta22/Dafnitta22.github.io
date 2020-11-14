@@ -5,11 +5,10 @@ fetch(requestURL)
     return response.json();
 })
 .then(function (jsonObject) {
-    //console.table(jsonObject); // temporary checking for valid response and data parsing.//
+    //console.table(jsonObject);  temporary checking for valid response and data parsing.//
     const towns = jsonObject['towns'];
-    //const otowns = towns.filter(towns => (towns.name=='Preston'||towns.name=='Soda Springs'||towns.name=='Fish Haven'));//
-   // console.table(otowns);//
-    for (let i = 0; i < towns.length; i++ ) {  
+
+    for (let i = 0; i < towns.length; i++) {  
       if (towns[i].name == 'Preston' || towns[i].name == 'Soda Springs' || towns[i].name == 'Fish Haven') { 
     
         let card = document.createElement('section');
