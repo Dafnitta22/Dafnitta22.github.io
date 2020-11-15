@@ -76,7 +76,7 @@ main .gallery {
 
 }
 
-main .gallery h1 {
+main .gallery h2 {
     text-align: left;
     grid-column: 1/3;
     margin-left: 35px;
@@ -142,7 +142,7 @@ form label.sinfor {
     font-size: 14px;
 }
 
-main h1.scenter {
+main h2.scenter {
     margin: 15px 0 5px 100px;
 }
 
@@ -180,10 +180,43 @@ input[type="submit"] {
 
 /*--------------*/
 /*-----  Cards -------*/
+
+.towncards section { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: groove 2px darkgrey;
+    background-color: rgb(243, 240, 197);
+    margin: 0;
+    padding: 10px;
+    line-height: 0.2;
+}
 .towncards {
     display: grid;
-    grid-template-columns: 1fr ;
-    justify-content: center;
+    grid-template-columns: 1fr;
+   
+}
+
+.towncards img {
+    margin-top: -80px;
+    width: auto;
+    
+}
+
+
+.towncards section:nth-child(2) .texttown {
+    grid-column: 2;
+    
+    
+}
+
+.towncards section:nth-child(odd) .texttown {
+    grid-column: 1;
+    
+}
+
+.towncards section:nth-child(2) img {
+    grid-column: 1;
+    
 }
 
 

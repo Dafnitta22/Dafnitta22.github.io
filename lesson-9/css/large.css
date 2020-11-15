@@ -85,7 +85,7 @@ main .gallery {
 
 }
 
-main .gallery h1 {
+main .gallery h2 {
     text-align: left;
     grid-column: 1/4;
     margin-left: 8px;
@@ -219,7 +219,7 @@ form label.sinfor {
     font-size: 14px;
 }
 
-main h1.scenter {
+main h2.scenter {
     margin: 15px 0 5px 100px;
 }
 
@@ -259,14 +259,35 @@ input[type="submit"] {
 
 
 /* -----  Cards -------*/
+.towncards section { 
+    display: block;
+    border: groove 2px darkgrey;
+    background-color: rgb(243, 240, 197);
+    padding: 0px 5px;
+    text-align: center;
+    
+    
+}
+
 .towncards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    justify-content: center;
+    border-style: none;
+
 }
 
+.towncards img {
+    padding:70px 10px 20px 10px;
+    width: auto;  
+}
 
+.towncards .texttown {
+    line-height: 1.2;
+}
 
-
+/*----------*/
 .mapinfo {
     display: flex;
     flex-direction: row;

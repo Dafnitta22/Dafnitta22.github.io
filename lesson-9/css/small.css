@@ -173,7 +173,7 @@ main div {
 
 /* Weather Gallery*/
 
-main .gallery h1 {
+main .gallery h2 {
    text-align: center;
 }
 
@@ -224,7 +224,7 @@ form label.top input, form label.top select {
 
 form label.sinfor {
     display: block;
-    padding: 10px 20px;
+    padding: 10px 15px;
     font-size: 12px;
     margin-left: 8px;
 }
@@ -263,13 +263,13 @@ form label.sin {
 }
 
 
-main h1.scenter {
+main h2.scenter {
     margin: 15px 0 5px 20px;
 }
 
 #comments {
     padding: 10px 10px;
-    margin-left: 10px;
+    margin-left: 8px;
     border: 1px solid darkgrey;
     border-radius: 10px;
 }
@@ -290,7 +290,6 @@ input[type="submit"] {
 .towncards section { 
     border: groove 2px darkgrey;
     background-color: rgb(243, 240, 197);
-    margin: 8px;
     padding: 12px;
     text-align: center;
 }
@@ -302,6 +301,12 @@ input[type="submit"] {
     border-style: none;
 
 }
+
+.towncards h3 {
+    font-size: 0.8em;
+}
+
+
 
 
 

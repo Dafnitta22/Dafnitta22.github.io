@@ -5,9 +5,9 @@ fetch(requestURL)
     return response.json();
 })
 .then(function (jsonObject) {
-    //console.table(jsonObject);  temporary checking for valid response and data parsing.//
+    //console.table(jsonObject);  //temporary checking for valid response and data parsing.
     const towns = jsonObject['towns'];
-
+   
     for (let i = 0; i < towns.length; i++) {  
         if (towns[i].name == 'Preston' || towns[i].name == 'Soda Springs' || towns[i].name == 'Fish Haven') { 
     
@@ -38,6 +38,13 @@ fetch(requestURL)
         image.setAttribute('alt', towns[i].name + " - " + towns[i].motto);
         } 
 
+        h2.setAttribute('class', "texttown");
+        h3.setAttribute('class', "texttown");
+        p1.setAttribute('class', "texttown");
+        p2.setAttribute('class', "texttown");
+        p3.setAttribute('class', "texttown");
+
+
         card.appendChild(h2);
         card.appendChild(h3);
         card.appendChild(p1);
@@ -47,8 +54,12 @@ fetch(requestURL)
         document.querySelector('div.towncards').appendChild(card);
         
     }
- }
+  }
 
 });
 
 
+//*-------const fitowns = towns.filter(x =>(x.name=='Preston'||x.name=='Soda Springs'||x.name=='Fish Haven'));
+//console.table (fitowns);
+//fitowns.forEach (towns => {
+//console.log(towns.name);    
