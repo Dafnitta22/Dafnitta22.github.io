@@ -1,0 +1,438 @@
+/*@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');*/
+
+body, main {
+
+font-size: 12px;
+font-family: 'PT Serif', serif;
+
+}
+
+.message {
+    display: none;
+    border: 15px;
+    margin: 0;
+    padding: 8px;
+    background-color: #EEE5E5;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    
+}
+
+
+
+
+header {
+    display: flex;
+    margin: 0;
+    padding: 10px 0;
+    justify-content: left;
+    background-color: rgb(195, 248, 250);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+header img {
+    width: 90px;
+    height: auto;
+    margin-left: 20px;
+    
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    margin: 2px 10px;
+    padding: 2px 8px;
+}
+
+.motto {
+    margin-bottom: 5px;
+    margin-top: -20px;
+    font-weight: normal;
+}
+
+
+.ham {
+
+    font-size: 40px;
+    font-weight: bolder;
+    color: black;
+    
+}
+
+nav {
+    background-color: #28AFB0;
+    margin: 0 auto;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.8rem 2%;
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
+    list-style-type: none;
+    
+}
+.primarynav li:first-child {
+    display: block;
+    text-align: center;
+    color: white;
+}
+
+
+.primarynav {
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+
+}
+
+.primarynav a {
+    display: block;
+}
+
+.primarynav li {
+    display: none;
+}
+
+
+.responsive li {
+    display: block;
+    
+}
+
+
+main {
+background-color: #EEE5E5;
+margin: 0 auto;
+
+}
+
+.town {
+    text-align: left;
+    margin-left: 20px;
+}
+
+div .responsive {
+    border-style: none;
+}
+
+picture .original {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    
+}
+
+.weathersummary {
+    display: block;
+    background-color: rgba(126, 134, 20);
+    color: white;
+    border-style: none;
+    padding: 5px;
+    font-family: 'PT Serif', serif;
+   
+}
+
+.weathersummary ul li {
+    text-decoration: none;
+    text-align: center;
+    list-style-type: none;
+    margin-right: 28px;
+
+}
+
+.weathersummary h3 {
+    text-align: center;
+
+}
+
+main div {
+    margin: 20px;
+    border-style: groove;
+}
+
+
+/* Weather Gallery*/
+
+main .gallery h2 {
+   text-align: center;
+}
+
+main .gallery {
+    border-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    justify-content: center;
+}
+
+/*-----------Form-----------*/
+
+form fieldset {
+   padding: 15px 35px 15px 10px;
+   margin: 35px 20px;
+   border: 1px solid gray;
+   border-radius: 15px;
+   font-weight: 500;
+
+}
+
+form legend {
+    padding: 0 10px;
+    margin: 0 15px;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+form label.top {
+    display: block;
+    font-size: 12px;
+    padding: 8px 30px;
+}
+
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+
+}
+
+form label.sinfor {
+    display: block;
+    padding: 10px 15px;
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+
+form label.sin {
+     display: block;
+     padding: 3px 30px;
+}
+
+#sdate {
+    font-size: 14px;
+    padding: 5px 45px;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+    
+}
+
+#stormtype{
+    font-size: 14px;
+    padding: 8px 40px;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+
+}
+
+#rating {
+    padding: 5px 40px;
+}
+
+#region {
+    font-size: 14px;
+    padding: 5px 65px; 
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+}
+
+
+main h2.scenter {
+    margin: 15px 0 5px 20px;
+}
+
+#comments {
+    padding: 10px 10px;
+    margin-left: 8px;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    padding: 8px 35px;
+    margin: 35px 20px;
+    font-weight: Bolder;
+    background-color: lightgray;
+    font-weight: bolder;
+}
+
+/*------- Cards-------*/
+.heroimage {
+    border-style: none;
+}
+
+.towncards section { 
+    border: groove 2px darkgrey;
+    background-color: rgb(243, 240, 197);
+    padding: 12px;
+    text-align: center;
+}
+
+.towncards {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    border-style: none;
+
+}
+
+.towncards h3 {
+    font-size: 0.8em;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*-------------Map----------*/
+.mapouter {
+    position: absolute;
+    margin-left: 60px;
+}
+
+.forcast {
+    display: none;
+}
+
+
+
+.fivedays {
+    display: none;
+}
+
+
+
+.weathericons td img {
+    width: 25px;
+    height: 25px;
+    margin: 5px 15px;
+
+}
+
+article p {
+    padding: 15px;
+}
+
+
+
+.articleimg {
+    width: 100%;
+    height: 200px;
+    border-style: none;
+   
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #28AFB0;
+    color:white;
+    text-align: center;
+    margin: 0px;
+    font-size: 12px;
+    padding: 0px;
+}
+
+
+.mapinfo {
+
+    background-color: rgb(195, 248, 250); 
+    width: auto;
+    height: 120px;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+
+
+
+.mappic {
+    display: none;   
+}
+
+
+
+.contactinfo {
+    color: black;
+    text-align: left;
+    padding: 0px 5px 10px 30px;
+}   
+
+.socialicon img {
+   width: 20px;
+   height: 20px;
+
+}
+
+footer a {
+    list-style-type: none; 
+    text-decoration: none;
+    color: white;
+    
+}
+
+.copyright {
+    font-size: 12px;
+    margin-bottom: -50px;
+    padding: 18px;
+}
+
+.dayformat {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+
+a:hover {
+    color: yellow;
+}
+
+
+nav ul li .active a{
+    background-color: rgba(0,0,0,0.2); color:#fff;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.4);
+}
+
+
+
+
+
+
+
+
