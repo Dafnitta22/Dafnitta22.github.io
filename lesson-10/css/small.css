@@ -362,9 +362,22 @@ input[type="submit"] {
 
 }
 
+
+
 article p {
     padding: 15px;
 }
+
+.home-article h2 {
+    padding: 13px;
+
+}
+
+.preston-article h2 {
+    padding: 13px;
+
+}
+
 
 
 
