@@ -1,15 +1,15 @@
 
 function windchill() {
-    let t = parseFloat(document.getElementById("currenttemp").innerHTML);
-    let s = parseFloat(document.getElementById("currents").innerHTML); 
+    let t = parseFloat(document.getElementById('currenttemp').innerHTML);
+    let s = parseFloat(document.getElementById('currents').innerHTML); 
     let f = twindchill (t,s);
 
     if( t <= 50 && s > 3) {
        
-        document.getElementById("wc").innerHTML = Math.round(f) + "&#8457;";  
+        document.getElementById('wc').innerHTML = Math.round(f) + "&#8457;";  
     }
     else {
-        document.getElementById("wc").innerHTML = "N/A";  
+        document.getElementById('wc').innerHTML = "N/A";  
     }
 }
 function twindchill(t,s) {
