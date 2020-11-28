@@ -23,15 +23,6 @@ header img {
 }
 
 
-nav {
-    display: flex;
-    background:#28AFB0;
-    
-}
-
-nav ul {margin-left: 35px;}
-
-
 header {
     display: flex;
     padding: 10px 0;
@@ -41,29 +32,51 @@ header {
     font-weight: bold;
 }
 
+/*-----------Navigation---------*/
+nav {
+    
+    background:#28AFB0;
+    
+}
 
-nav ul li {
-    float: left;
+nav ul {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.primarynav li {
+    display: block;
+    
 }
 
 nav ul li a {
     border: none;
     border-right: none;
-    padding: 0.5rem 0.1rem;
+    padding: 0.5rem 0.8rem;
     list-style-type: none;
     color: white;
     font-size: 16px;
 }
 
-.primarynav li {
-    display: flex;
-    margin: 0 5px 0 20px;
-    padding: 0px 1px;
-}
-
 .primarynav li:first-child {
     display: none;
 }
+
+
+nav ul li .active a {
+    background-color: rgba(0,0,0,0.2); 
+    color: yellow;
+    padding: 0.5rem 0.8rem;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.4);
+    padding: 0.5rem 0.8rem;
+    color: white;
+}
+
 
 /*Weather Gallery*/
 
@@ -83,7 +96,18 @@ main .gallery h2 {
 
 }
 
+.weathersummary {
+    position: absolute;
+    top: 300px;
+    left: 40px;
+    border-style: none;
+    background-color: rgba(126, 134, 20);
+    box-shadow: 0 0 15px grey;
+    padding: 5px;
+    color: white;
+    font-size: 14px;
 
+}
 
 .weathersummary h3 {
     text-align: center;
@@ -110,33 +134,34 @@ picture .original {
     margin: 0;
 }
 
-.forcast {
-    display: block;
+.myforecast {
+    display: flex;
+    flex-direction: column;
     width: auto;
     height: 200px;
+    padding: 20px 0;
 
 }
-.forcast h2 {
+.myforecast h2 {
     text-align: center;
     
 }
 
-.fivedays {
-    display: block;
+table.fivedays {
+    display: flex;
     justify-content: center;
-   
+    
+}
+
+table.fivedays tr td {
+    padding: 0 15px;
 }
 
 .weathericons td img {
-    width: 50px;
-    height: 50px;
-    margin: 10px 20px;
+    width: 30px;
+    height: 30px;
 
-}
 
-.tempicons td span {
-    margin-left: 20px;
-  
 }
 
 
@@ -286,19 +311,6 @@ footer a {
     margin-bottom: 50px;
 }
 
-a:hover {
-    color: yellow;
-}
-
-nav ul li .active a {
-    background-color: rgba(0,0,0,0.2); color:#fff;
-    padding: 0.5rem 0.1rem;
-}
-
-nav ul li a:hover {
-    background-color: rgba(0,0,0,0.4);
-    padding: 0.5rem 0.1rem;
-}
 
 
 }
