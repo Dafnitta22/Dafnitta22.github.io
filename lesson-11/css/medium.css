@@ -101,7 +101,7 @@ main .gallery h2 {
     top: 300px;
     left: 40px;
     border-style: none;
-    background-color: rgba(126, 134, 20);
+    background-color: rgba(126, 134, 20, 0.596);
     box-shadow: 0 0 15px grey;
     padding: 5px;
     color: white;
@@ -151,10 +151,18 @@ table.fivedays {
     display: flex;
     justify-content: center;
     
+    
 }
 
 table.fivedays tr td {
     padding: 0 15px;
+    border-style: groove;
+    background-color: lightgray;
+}
+
+table.fivedays tr th{
+    border-style: groove;
+    background-color: lightgray;
 }
 
 .weathericons td img {
@@ -266,7 +274,7 @@ input[type="submit"] {
     border-style: none;
     padding: 0 15px;
 
-
+}
 
 
 
@@ -314,10 +322,6 @@ footer a {
 
 }
 
-.currentdate {
-    font-size: 12px;
-    margin-bottom: 50px;
-}
 
 
 

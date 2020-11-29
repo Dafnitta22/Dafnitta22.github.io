@@ -182,7 +182,7 @@ main div {
 }
 
 
-/* Weather Gallery*/
+/*------Weather Gallery-------*/
 
 main .gallery h2 {
    text-align: center;
@@ -399,9 +399,9 @@ footer {
     background-color: #28AFB0;
     color:white;
     text-align: center;
-    margin: 0px;
+    margin: 0;
     font-size: 12px;
-    padding: 0px;
+    padding: 0;
 }
 
 
@@ -445,14 +445,13 @@ footer a {
 
 .copyright {
     font-size: 12px;
-    margin-bottom: -50px;
-    padding: 18px;
+    padding: 8px;
 }
 
-.dayformat {
-    padding: 8px;
-    margin-bottom: 10px;
+.copyright a:hover {
+    color: yellow;
 }
+
 
 
 

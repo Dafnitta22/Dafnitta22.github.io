@@ -36,7 +36,7 @@ nav ul li a {
     border: none;
     margin: 0;
     list-style-type: none;
-    padding: 0.8rem 2.3rem;
+    padding: 0.8rem 2.1rem;
     font-size: 18px;
 }
 
@@ -65,13 +65,13 @@ nav ul {
 nav ul li .active a {
     background-color: rgba(0,0,0,0.2); 
     color: yellow;
-    padding: 0.8rem 2.3rem;
+    padding: 0.8rem 2.1rem;
 }
 
 nav ul li a:hover {
     background-color: rgba(0,0,0,0.4);
     color: white;
-    padding: 0.8rem 2.3rem;
+    padding: 0.8rem 2.1rem;
 }
 /*----------------Weather Gallery-----------------------*/
 
@@ -126,14 +126,14 @@ picture .original {
 
 .weathersummary {
     position: absolute;
-    top: 380px;
-    left: 50px;
+    top: 300px;
+    left: 30px;
     border-style: none;
-    background-color: rgba(126, 134, 20);
+    background-color: rgba(126, 134, 20, 0.596);
     box-shadow: 0 0 15px grey;
-    padding: 10px;
+    padding: 5px;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     
    
 }
@@ -164,7 +164,7 @@ main div {
 
 
 table.fivedays tr td {
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .weathericons td img {
@@ -303,7 +303,7 @@ input[type="submit"] {
 
 .copyright {
     font-size: 15px;
-    padding: 10px;
+    padding: 12px;
 
 }
 
