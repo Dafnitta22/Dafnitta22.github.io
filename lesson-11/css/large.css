@@ -36,7 +36,7 @@ nav ul li a {
     border: none;
     margin: 0;
     list-style-type: none;
-    padding: 0.8rem 0.6rem;
+    padding: 0.8rem 2.3rem;
     font-size: 18px;
 }
 
@@ -65,13 +65,13 @@ nav ul {
 nav ul li .active a {
     background-color: rgba(0,0,0,0.2); 
     color: yellow;
-    padding: 0.8rem 0.6rem;
+    padding: 0.8rem 2.3rem;
 }
 
 nav ul li a:hover {
     background-color: rgba(0,0,0,0.4);
     color: white;
-    padding: 0.8rem 0.6rem;
+    padding: 0.8rem 2.3rem;
 }
 /*----------------Weather Gallery-----------------------*/
 
@@ -87,12 +87,12 @@ main .gallery {
 main .gallery h2 {
     text-align: left;
     grid-column: 1/4;
-    margin-left: 8px;
+    margin-left: 2px;
 
 }
 
 figure {
-    margin: 15px;
+    margin: 20px 0;
     padding: 0;
     box-shadow: 0 5px 8px 0 lightgrey;
 }
@@ -175,13 +175,6 @@ table.fivedays tr td {
 }
 
 
-.contactinfo {
-    justify-content: right;
-    text-align: left;
-    margin-left: 1000px;
-
-}   
-
 article h2 {
     padding: 15px;
 }
@@ -200,7 +193,7 @@ article h2 {
 
 form fieldset {
     padding: 15px 25px;
-    margin: 35px 100px;
+    margin: 35px 200px;
 }
 
 
@@ -212,7 +205,7 @@ form label.sinfor {
 }
 
 main h2.scenter {
-    margin: 15px 0 5px 100px;
+    margin: 15px 0 5px 200px;
 }
 
 
@@ -243,7 +236,7 @@ main h2.scenter {
 
 input[type="submit"] {
     padding: 8px 35px;
-    margin: 35px 100px;
+    margin: 35px 200px;
 }
 
 
@@ -255,8 +248,9 @@ input[type="submit"] {
     display: block;
     border: groove 2px darkgrey;
     background-color: rgb(243, 240, 197);
-    padding: 0px 5px;
+    padding: 0px 10px;
     text-align: center;
+    font-size: 0.9rem;
     
     
 }
@@ -271,8 +265,8 @@ input[type="submit"] {
 }
 
 .towncards img {
-    padding:70px 10px 20px 10px;
-    width: auto;  
+    padding:120px 10px 20px 10px;
+    width: 90%;  
 }
 
 .towncards .texttown {
@@ -283,18 +277,26 @@ input[type="submit"] {
 .mapinfo {
     display: flex;
     flex-direction: row;
+   
 }
+
+.contactinfo {
+    justify-content: left;
+    text-align: left;
+    margin-left: 500px;
+    font-size: 1rem;
+
+}   
 .mappic {
     display: flex;
-    width: 200px;
+    width: 300px;
     height: 150px;
 }
 
 .mapouter {
-    position: absolute;
     height:300px;
     width:200px;
-    margin-left: 300px;
+    margin-left: 200px;
     margin-top: 150px;  
    
 }
