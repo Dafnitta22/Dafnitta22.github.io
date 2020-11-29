@@ -258,6 +258,14 @@ input[type="submit"] {
     
 }
 
+/*-------Article------*/
+
+.articleimg {
+    width: 90%;
+    height: 200px;
+    border-style: none;
+    padding: 0 15px;
+
 
 
 

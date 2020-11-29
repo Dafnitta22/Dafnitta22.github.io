@@ -330,15 +330,13 @@ input[type="submit"] {
 /*------Events-------*/
 
 
-.ssevents {
-
+.townevents h2 {
+    padding: 0 15px;
 }
 
-
-
-
-
-
+.townevents p {
+    padding: 0 15px;
+}
 
 
 
@@ -367,7 +365,7 @@ input[type="submit"] {
 
 }
 
-
+/*-------Article------*/
 
 article p {
     padding: 15px;
@@ -387,9 +385,11 @@ article p {
 
 
 .articleimg {
-    width: 100%;
+    width: 80%;
     height: 200px;
     border-style: none;
+    padding: 13px;
+    
    
 }
 
