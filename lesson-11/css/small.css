@@ -365,10 +365,16 @@ input[type="submit"] {
 
 }
 
+
+.thankstext {
+    padding: 10px;
+    border-style: none;
+}
+
 /*-------Article------*/
 
 article p {
-    padding: 15px;
+    padding: 13px;
 }
 
 .home-article h2 {
@@ -385,7 +391,7 @@ article p {
 
 
 .articleimg {
-    width: 80%;
+    width: 90%;
     height: 200px;
     border-style: none;
     padding: 13px;
