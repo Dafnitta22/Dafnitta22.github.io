@@ -1,0 +1,27 @@
+body {
+    font-family: 'Heebo', sans-serif;
+}
+
+header {
+
+    background-color: white;
+
+}
+
+main {
+    background-color: #FAD3B3;
+}
+
+nav {
+    background-color: #AAF683;
+    
+}
+
+footer {
+    background-color: #AAF683;
+}
+
+.socialicon a img{
+    width: 3rem;
+    height: 3rem;
+}
