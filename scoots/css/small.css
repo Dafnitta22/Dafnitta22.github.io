@@ -1,27 +1,67 @@
 body {
     font-family: 'Heebo', sans-serif;
+    
 }
 
 header {
-
+    display: flex;
+    align-self: center;
+    justify-content: center;
     background-color: white;
 
 }
 
+.namemotto {
+    margin-top: 60px;
+    line-height: 0.3rem;
+    
+}
+
+.namemotto h1 {
+    font-size: 50px;
+    font-weight: bold; 
+}
+
+.namemotto p {
+    font-weight: 200; 
+}
 main {
     background-color: #FAD3B3;
+
+ 
 }
 
 nav {
+    font-size: 1.2rem;
     background-color: #AAF683;
-    
+    padding: 15px 0;
+    font-weight: bold;
+      
+}
+
+nav ul {
+   display: flex; 
+   align-self: center;
+   justify-content: center;
+   list-style-type: none; 
+   margin: 0;
+   padding: 0;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;  
+    padding: 0 80px;
 }
 
 footer {
     background-color: #AAF683;
+    text-align: center;
+    padding: 1.2rem 1.5rem;
 }
 
 .socialicon a img{
     width: 3rem;
     height: 3rem;
+   
 }
