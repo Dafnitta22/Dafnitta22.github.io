@@ -2,7 +2,6 @@ body {
     font-family: 'Heebo', sans-serif;
     
 }
-
 header {
     display: flex;
     align-self: center;
@@ -27,13 +26,14 @@ header {
 }
 main {
     background-color: #FAD3B3;
-
+    margin: 0 auto;
+  
  
 }
 
 nav {
     font-size: 1.2rem;
-    background-color: #AAF683;
+    background-color: #c9fab2;
     padding: 15px 0;
     font-weight: bold;
       
@@ -54,8 +54,30 @@ nav ul li a {
     padding: 0 80px;
 }
 
+
+
+.currentweather {
+    background-color: lightgray;
+    display: block;
+    padding: 8px;
+    text-align: center;
+    
+}
+
+
+
+
+.currentweather ul {
+    list-style-type: none;
+
+}
+
+.breserve button {
+     text-align: center;
+}
+
 footer {
-    background-color: #AAF683;
+    background-color: #c9fab2;
     text-align: center;
     padding: 1.2rem 1.5rem;
 }
