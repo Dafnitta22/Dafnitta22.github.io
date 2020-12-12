@@ -24,9 +24,11 @@ header {
 .namemotto p {
     font-weight: 200; 
 }
+
 main {
-    background-color: #FAD3B3;
+    background-color: white;
     margin: 0 auto;
+    padding: 0 40px;
   
  
 }
@@ -40,6 +42,7 @@ nav {
 }
 
 nav ul {
+   overflow: hidden; 
    display: flex; 
    align-self: center;
    justify-content: center;
@@ -49,31 +52,71 @@ nav ul {
 }
 
 nav ul li a {
+    
     color: black;
     text-decoration: none;  
     padding: 0 80px;
+}
+
+nav ul li {
+    display: none;
+}
+
+.ham {
+    justify-content: center;
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.navigation a {
+    display: block;
+
+}
+.responsive li {
+    display: block;
+    
 }
 
 
 
 .currentweather {
     background-color: lightgray;
-    display: block;
-    padding: 8px;
-    text-align: center;
+    width: 180px;
+    border: 2px groove lightgray;
+    
     
 }
 
-
+.currentweather h3 {
+    text-align: center;
+}
 
 
 .currentweather ul {
     list-style-type: none;
+   
 
+}
+
+.currentweather ul li {
+    line-height: 2rem;
+    text-align: center;
+    padding: 0 25px 0 0;
 }
 
 .breserve button {
      text-align: center;
+     padding: 15px 37px;
+     background-color: #FAD3B3;
+}
+
+.breserve button a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-size: 18px;
+
 }
 
 footer {

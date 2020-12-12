@@ -4,7 +4,31 @@
     display: none;
 }
 
+nav {
+    font-size: 1.2rem;
+    background-color: #c9fab2;
+    padding: 15px 0;
+    font-weight: bold;
+}
+      
+nav ul {
+   display: flex;
+   flex-direction: row;
+   display: flex; 
+   align-self: center;
+   justify-content: center;
+   list-style-type: none; 
+   margin: 0;
+   padding: 0;
+    
+}
 
+nav ul li a {
+    
+    color: black;
+    text-decoration: none;  
+    padding: 0 80px;
+}
 
 
 

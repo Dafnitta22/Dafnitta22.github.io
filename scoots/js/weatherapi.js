@@ -4,10 +4,10 @@ const apiURL ="https://api.openweathermap.org/data/2.5/weather?lat=20.501&lon=-8
 fetch(apiURL)
    .then((response) => response.json())
    .then((jsObject) => {
-       console.log(jsObject.coord[0]);
-document.getElementById('currenttemp').textContent = jsObject.coord[0].main.temp;
-document.getElementById('real').textContent= jsObject.coord[0].description;
-document.getElementById('humidity').textContent= jsObject.coord[0].main.humidity;
-document.getElementById('currents').textContent= jsObject.coord[0].wind.speed;
+       console.log(jsObject);
+document.getElementById('currenttemp').textContent = jsObject.main.temp;
+document.getElementById('real').textContent= jsObject.weather[0].description;
+document.getElementById('humidity').textContent= jsObject.main.humidity;
+document.getElementById('currents').textContent= jsObject.wind.speed;
 
 });
