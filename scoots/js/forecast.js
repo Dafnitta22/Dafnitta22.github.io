@@ -1,10 +1,9 @@
 const foreurl ="https://api.openweathermap.org/data/2.5/forecast?lat=20.501&lon=-86.94598&units=imperial&APPID=c3606e0d4042874cbcafbcaa8a132891";
 
-
 fetch(foreurl)
    .then((response) => response.json())
    .then((jsObject) => {
-       console.log(jsObject.list[0]);
+       console.log(jsObject);
 
 const forecast = jsObject.list.filter(element => element.dt_txt.includes('18:00:00'));
 console.log(forecast);
