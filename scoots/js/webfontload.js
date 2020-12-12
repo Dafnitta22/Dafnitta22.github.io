@@ -1,4 +1,4 @@
 WebFont.load({
     google: {
-        families: ['Sans serif']}
+        families: ['Heebo']}
 });

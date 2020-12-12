@@ -33,34 +33,33 @@ main {
  
 }
 
+/*----Navigation-----*/
+
 nav {
     font-size: 1.2rem;
     background-color: #c9fab2;
-    padding: 15px 0;
+    padding: 0;
     font-weight: bold;
       
 }
 
 nav ul {
-   overflow: hidden; 
-   display: flex; 
-   align-self: center;
-   justify-content: center;
+  
    list-style-type: none; 
+   overflow: hidden;
+   background-color: transparent;
    margin: 0;
    padding: 0;
 }
 
 nav ul li a {
-    
+    display: block;
     color: black;
     text-decoration: none;  
-    padding: 0 80px;
+    padding: 0.8rem 1rem;
+    text-align: center;
 }
 
-nav ul li {
-    display: none;
-}
 
 .ham {
     justify-content: center;
@@ -69,8 +68,31 @@ nav ul li {
     font-weight: bolder;
 }
 
+.navigation li:first-child {
+    display: block;
+    text-align: center;
+    
+}
+
+.navigation li a:hover {
+    background-color: rgba(0,0,0,0.2);
+    color: yellow;
+    padding: 0.8rem 1rem;
+}
+
+.navigation {
+    padding: 0;
+    justify-content: center;
+
+}
 .navigation a {
     display: block;
+    
+}
+
+.navigation li {
+    display: none;
+ 
 
 }
 .responsive li {
