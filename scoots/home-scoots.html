@@ -42,12 +42,39 @@
             <li>Temp: <span id='currenttemp'></span>&#8457;</li>
             <li>Humidity: <span id='humidity'></span>&#37;</li>
             <li>Wind Speed: <span id='currents'></span>mph</li>
-            <li>WindChill: <span id='wc'></span></li>
             </ul>
     </div>  
     <div class="breserve">
     <button><a href="reservations.html">Reserve Now</a></button>
     </div> 
+    <div class="myforecast">
+        <h2> Forecast </h2>
+        <table class="threedays" >
+        <tr>
+            <th id="dayofweek1"></th>
+            <th id="dayofweek2"></th>
+            <th id="dayofweek3"></th>
+            
+        </tr>
+        <tr class="weathericons">
+            <td><img src="images/sunny.png" alt="sunnyicon"></td>
+            <td><img src="images/cloudy.png" alt="cloudyicon"></td>
+            <td><img src="images/rain.png" alt="rainicon"></td>
+        </tr>
+        <tr class="tempicons">
+            <td><span></span>&#8457;</td>
+            <td><span></span>&#8457;</td>
+            <td><span></span>&#8457;</td>
+        </tr>
+        </table>
+        
+        </div>
+
+
+
+
+
+
     <div class="scootspics">
 
     </div>
@@ -67,14 +94,13 @@
 <a href="https://twitter.com/?lang=en"><img src="/scoots/images/twittericon.png" alt="Twitter Icon"></a>
 </div>
 <div class="">
-<p>&#169; <span id="currentyear"></span> Maida Garcia | Last update: <span id="currentdate"></span> | <a href="/scoots/reservations.html">Resources</a></p>
+<p>&#169; <span id="currentyear"></span> Maida Garcia | Updated: <span id="currentdate"></span> | <a href="/scoots/reservations.html">Resources</a></p>
 </div>
 
 </footer>
 <script src="/scoots/js/hamburger.js"></script>
 <script src="/scoots/js/lastupdate.js"></script>
 <script src="/scoots/js/weatherapi.js"></script>
-<script src="/scoots/js/windchill.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
 <script src="/scoots/js/webfontload.js"></script>
 </body>
