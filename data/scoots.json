@@ -1,0 +1,18 @@
+{
+    "type": [
+    {
+        "name": "Honda Metro Scooter",
+        "personas": "1",
+        "halfday": "$20",
+        "fullday": "$30",
+        "halfdaywi": "$25",
+        "fulldaywi": "$35",
+        "image": "data/images/solstice-hannan-M49a4J5eYFY-unsplash.png",
+        "order": 1 
+    },
+
+      {
+
+      }
+    ]
+}
