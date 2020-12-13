@@ -9,7 +9,7 @@ const forecast = jsObject.list.filter(element => element.dt_txt.includes('18:00:
 console.log(forecast);
 let day = 0;
 const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-forecast.forEach (element => {
+    forecast.forEach (element => {
     const d= new Date (element.dt_txt);
     document.getElementById(`dayofweek${day+1}`).textContent = weekdays[d.getDay()];
     const imagesrc = 'https://openweathermap.org/img/w/' + element.weather[0].icon + '.png';
@@ -19,3 +19,5 @@ forecast.forEach (element => {
    });
 
 });
+
+/*.getDay()*/

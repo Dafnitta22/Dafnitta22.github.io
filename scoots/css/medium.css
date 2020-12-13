@@ -39,6 +39,7 @@ nav ul li .active a {
     background-color: rgba(0,0,0,0.2); 
     color: yellow;
     padding: 0.8rem 1.8rem;
+    font-size: 18px;
 }
 
 nav ul li a:hover {
@@ -47,18 +48,45 @@ nav ul li a:hover {
   
 }
 
-.currentweather {
-    width: 200px;
-}
-
 
 .currentweather ul li {
-    text-align: left;
+    line-height: 1.2rem;
+    text-align: center;
+    margin: 0 20px 0 0;
+}
+
+.breserve button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    padding: 10px 30px;
+}
+
+.breserve button a {
+    font-size: 25px;
 }
 
 
-.breserve button {
-    width: 200px;
+
+.scootspics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    justify-content: center;
+    width: auto;
+}
+
+.suminfo {
+    padding: 0 0 0 100px;
+    font-size: 18px;
+}
+
+.suminfo h2 {
+    text-align: left;
+    
 }
 
 

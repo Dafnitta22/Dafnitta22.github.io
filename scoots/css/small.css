@@ -113,13 +113,13 @@ nav ul li .active a {
 
 .currentweather {
     background-color: #e5e6e4;
-    width: 100%;
+    width: auto;
     border: 1px groove lightgray;
     
     
 }
 
-.currentweather h3 {
+.currentweather h2 {
     text-align: center;
 }
 
@@ -136,7 +136,10 @@ nav ul li .active a {
     margin: 0 20px 0 0;
 }
 
+
+
 .breserve button {
+    
      text-align: center;
      padding: 15px 37px;
      background-color: #FAD3B3;
@@ -144,10 +147,11 @@ nav ul li .active a {
 }
 
 .breserve button a {
+
     text-decoration: none;
     color: black;
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 20px;
 
 }
 
@@ -155,16 +159,34 @@ nav ul li .active a {
     display: flex;
     flex-direction: column;
     background-color: lightgray;
-    width: 100%;
+    width: auto;
     border: 1px groove lightgray;
     text-align: center;
+    
 }
 
 .myforecast table tr {
     background-color: #e5e6e4;
     border: 1px groove #e5e6e4; 
     
+    
 }
+
+.scootspics a img{
+    width: 100%;
+}
+
+.suminfo {
+    background-color:#e5e6e4;
+    border: 1px groove #e5e6e4; 
+    
+}
+
+.suminfo h2 {
+    text-align: center;
+
+}
+
 
 footer {
     background-color: #c9fab2;
