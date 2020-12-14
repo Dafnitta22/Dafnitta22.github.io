@@ -72,6 +72,12 @@
         justify-content: center;
         width: auto;
     }
+
+    .rentalsinfo {
+        grid-gap: 10px;
+        margin: 22px;
+        
+    }
     
 
 
