@@ -6,7 +6,7 @@ fetch(requestURL)
 })
 .then(function (jsonObject) {
     console.table(jsonObject); // temporary checking for valid response and data parsing.
-    const rentals = jsonObject['rentalsinfo'];
+    const rentals = jsonObject['rentals'];
     for (let i = 0; i < rentals.length; i++ ) {
 
         let card = document.createElement('section');
@@ -18,7 +18,7 @@ fetch(requestURL)
         h2.textContent = rentals[i].name;
         p1.textContent = 'MaxPersons: ' + rentals[i].personas;
         p2.textContent = 'Half day: ' + rentals[i].halfday;
-        image.setAttribute('src', rentals[i].image);
+        image.setAttribute('src', rentals[i].imagesrc);
         image.setAttribute('alt', rentals[i].name);
       
 
