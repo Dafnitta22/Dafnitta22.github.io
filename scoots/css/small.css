@@ -208,8 +208,15 @@ nav ul li .active a {
 }
 
 .rentalsinfo h2 {
-    font-size: 0.8em;
+    font-size: 1.2em;
 }
+
+.rentalsinfo img {
+    width: auto;
+    height:auto;
+    margin: 20px;
+}
+
 
 
 
