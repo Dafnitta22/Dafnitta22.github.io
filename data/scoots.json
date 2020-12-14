@@ -7,7 +7,7 @@
         "fullday": "$30",
         "halfdaywi": "$25",
         "fulldaywi": "$35",
-        "imagesrc": ".data/images/solstice-hannan-M49a4J5eYFY-unsplash.png",
+        "imagesrc": "./images/solstice-hannan-M49a4J5eYFY-unsplash.png",
         "order": 1 
     },
     {
@@ -17,7 +17,7 @@
       "fullday": "$40",
       "halfdaywi": "$35",
       "fulldaywi": "$45",
-      "imagesrc": ".data/images/pexels-pixabay-159192.png",
+      "imagesrc": "./images/pexels-pixabay-159192.png",
       "order": 2 
     },
 
@@ -28,7 +28,7 @@
       "fullday": "$50",
       "halfdaywi": "$45",
       "fulldaywi": "$55",
-      "imagesrc": ".data/images/pexels-migs-reyes-4691324.png",
+      "imagesrc": "./images/pexels-migs-reyes-4691324.png",
       "order": 3
     },
 
@@ -39,7 +39,7 @@
       "fullday": "$70",
       "halfdaywi": "$60",
       "fulldaywi": "$80",
-      "imagesrc": ".data/images/pexels-spencer-davis-4771594.png",
+      "imagesrc": "./images/pexels-spencer-davis-4771594.png",
       "order": 4
     },
 
@@ -50,7 +50,7 @@
       "fullday": "$100",
       "halfdaywi": "$85",
       "fulldaywi": "$125",
-      "imagesrc": ".data/images/pexels-brett-sayles-1638459.png",
+      "imagesrc": "./images/pexels-brett-sayles-1638459.png",
       "order": 5
     },
 
@@ -61,7 +61,7 @@
       "fullday": "$85",
       "halfdaywi": "$70",
       "fulldaywi": "$90",
-      "imagesrc": ".data/images/pexels-kody-hogan-4546414.png",
+      "imagesrc": "./images/pexels-kody-hogan-4546414.png",
       "order": 6 
 
     }

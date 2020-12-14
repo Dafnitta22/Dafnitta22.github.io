@@ -191,7 +191,7 @@ nav ul li .active a {
 /*---------Rentals---------*/
 
 
-.reantalsinfo section { 
+.rentalsinfo section { 
     border: groove 2px darkgrey;
     background-color: rgb(243, 240, 197);
     padding: 12px;
@@ -216,7 +216,7 @@ nav ul li .active a {
 
 }
 
-.rentalsinfo h3 {
+.rentalsinfo h2 {
     font-size: 0.8em;
 }
 
