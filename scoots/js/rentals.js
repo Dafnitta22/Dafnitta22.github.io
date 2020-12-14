@@ -18,7 +18,7 @@ fetch(requestURL)
         h2.textContent = rentals[i].name;
         p1.textContent = 'MaxPersons: ' + rentals[i].personas;
         p2.textContent = 'Half day: ' + rentals[i].halfday;
-        image.setAttribute('src', rentals[i].imagesrc);
+        image.setAttribute('src', rentals[i].imageurl);
         image.setAttribute('alt', rentals[i].name);
       
 
