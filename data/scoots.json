@@ -2,7 +2,7 @@
     "type": [
     {
         "name": "Honda Metro Scooter",
-        "personas": "1",
+        "personas": 1,
         "halfday": "$20",
         "fullday": "$30",
         "halfdaywi": "$25",
@@ -10,9 +10,60 @@
         "image": "data/images/solstice-hannan-M49a4J5eYFY-unsplash.png",
         "order": 1 
     },
+    {
+      "name": "Honda Dio Scooter",
+      "personas": 2,
+      "halfday": "$30",
+      "fullday": "$40",
+      "halfdaywi": "$35",
+      "fulldaywi": "$45",
+      "image": "data/images/pexels-pixabay-159192.png",
+      "order": 2 
+    },
 
-      {
+    {
+      "name": "Honda PCX150 Scooter",
+      "personas": 2,
+      "halfday": "$40",
+      "fullday": "$50",
+      "halfdaywi": "$45",
+      "fulldaywi": "$55",
+      "image": "data/images/pexels-migs-reyes-4691324.png",
+      "order": 3
+    },
 
-      }
+    {
+      "name": "Honda Pionner ATV",
+      "personas": 4,
+      "halfday": "$50",
+      "fullday": "$70",
+      "halfdaywi": "$60",
+      "fulldaywi": "$80",
+      "image": "data/images/pexels-spencer-davis-4771594.png",
+      "order": 4
+    },
+
+    {
+      "name": "Jeep Wrangler - 4 door with a/c",
+      "personas": 5,
+      "halfday": "$70",
+      "fullday": "$100",
+      "halfdaywi": "$85",
+      "fulldaywi": "$125",
+      "image": "data/images/pexels-brett-sayles-1638459.png",
+      "order": 5
+    },
+
+    {
+      "name": "Jeep Wrangler - 2 door",
+      "personas": 4,
+      "halfday": "$60",
+      "fullday": "$85",
+      "halfdaywi": "$70",
+      "fulldaywi": "$90",
+      "image": "data/images/pexels-kody-hogan-4546414.png",
+      "order": 6 
+
+    }
     ]
 }
