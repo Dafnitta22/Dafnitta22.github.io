@@ -26,7 +26,7 @@ fetch(requestURL)
         card.appendChild(p1);
         card.appendChild(p2);
         card.appendChild(image);
-        document.querySelector('div.cards').appendChild(card);
+        document.querySelector('div.rentalsinfo').appendChild(card);
         
     }
 
