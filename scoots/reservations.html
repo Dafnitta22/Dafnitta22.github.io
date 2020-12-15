@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations~Scoots</title>
+    <meta name="description" content="Reservations Page for Scoots Project">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">  
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap"  rel="stylesheet">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    
+    <header>
+        <picture>
+            <img src="/scoots/images/scootsicon.png" alt="Tire on fire Icon">
+        </picture>    
+        <section class="namemotto">
+            <h1>Scoots</h1>
+            <p>Rental for Adventure</p>
+        </section>    
+        
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776;</a></li>
+            <li><a href="home-scoots.html">Home</a></li>
+            <li><a href="rentals.html" >Rentals</a></li>
+            <li><a href="reservations.html" class="active">Reservations</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+      <div class="inforeq">
+          <h2>Information and Services</h2>
+          <ul>
+              <li>A $50 security deposit is required to confirm reservations.</li>
+              <li>A valid drivers license is required in hand at time of rental.</li>
+              <li>No one under 12 years of age are allowed to ride on the scooters.</li>
+              <li>Fuel charge not included.</li>
+              <li>Unlimited mileage.</li>
+              <li>Liability insurance is free of charge.</li>
+              <li>Reservations rate requires 24 hour prior notification.</li>
+              <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</li>
+              <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
+              <li>Rentals may be returned to either location.</li>
+          </ul>
+
+      </div>  
+      <div>
+        <form action ="confirmation.html"  method="get" class="mainform"> 
+        <fieldset>
+        <legend>Reservartion Form</legend>
+            <label class="pudate" for="pudate">Pick-up Date<br>
+            <input type="date" id="pudate" name="pudate">
+            </label>
+
+         <br>  
+         
+            <label class="pulocation" for="location">Pick-up Location<br>
+            <select id="ipulocation" name="npulocation" onchange="selectResponse()">
+            <option value=""  disabled>Please Select</option>
+            <option value="Centro de Cozumel">Centro de Cozumel</option>
+            <option value="Terminal Puerta Maya">Terminal Puerta Maya</option>
+            </select>
+            </label>
+         <br>
+            <label class="dodate" for="dodate">Drop-off Date<br>
+                <input type="date" id="dodate" name="dodate">
+            </label>
+         <br>
+
+            <label class="dolocation" for="location">Drop-off Location<br>
+                <select id="idolocation" name="ndolocation" onchange="selectResponse()">
+                <option value=""  disabled>Please Select</option>
+                <option value="Centro de Cozumel">Centro de Cozumel</option>
+                <option value="Terminal Puerta Maya">Terminal Puerta Maya</option>
+                </select>
+            </label>
+        <br>   
+           <label class="rtype" for="rentaltype">Rental Type<br>
+           <input id="stormtype"  list="rental-type" name="rental-type">
+           <datalist id="rental-type">
+           <option value="Honda Metro Scooter">
+           <option value="Honda Dio Scooter">
+           <option value="Honda PCX150 Scooter">
+           <option value="Honda Pioneer ATV">    
+           <option value="Jeep Wrangler-4 door with a/c">
+           <option value="Jeep Wrangler-2 door">
+           </datalist>
+           </label>
+        <br>
+            <label class="top" for="numbert">Number
+            <input type="number" id="numbert" name="numbert" required>
+            </label>
+
+        <br>
+            <label class="top" for="tel">Phone Number*
+            <input type="tel" id="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="480-548-4789" required>
+            </label>
+        <br>
+            <label class="top" for="fullName">Full Name*
+            <input type="text" name="fullName" id="fullName" required pattern="[A-Za-z]+[A-Za-z]+.{5,}" >
+            </label>
+        <br>   
+            <label class="top"  for="email">Email
+            <input type="email" name="email" id="email" placeholder="info@climecheck.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
+            </label>
+        <br>
+            <label class="top" for="state">State*
+            <input type="text" name="state" id="state" required pattern="[A-Za-z]+[A-Za-z]+.{5,}" >
+            </label>
+        <br>
+            <label class="top" for="zip">Zip Code*
+            <input type="number" id="zip" name="zip" required>
+            </label>
+        <br>
+            <label class="top" for="country">Country*
+            <input type="text" name="country" id="country" required pattern="[A-Za-z]+[A-Za-z]+.{5,}" >
+            </label>
+        <br>
+            <label class="top" for="cruiseline">Cruise Line
+            <input type="text" name="cruiseline" id="cruiseline" pattern="[A-Za-z]+[A-Za-z]+.{5,}" >
+            </label>
+        <br>
+
+        <label class="dorequest">Drop-off request<br><br></label>
+        <label class="sin"><input type="radio" name="user" value="yes">Yes</label><br>
+        <label class="sin"><input type="radio" name="user" value="maybe">Maybe</label><br>
+        <label class="sin"><input type="radio" name="user" value="no">No</label><br>
+
+        <br>
+        </fieldset>
+        <fieldset>
+            <legend>Special Accommodations or Comments</legend>
+            <label class="acomments" for="comments">
+            <textarea id="comments" name="comments" rows="8" cols="40">Enter comments/location of your Drop-off request here...</textarea>
+            </label>
+        </fieldset> 
+        
+        <br>
+        <label class="cond"><input type="checkbox" name="user" value="yes"> I agree and accept the conditions of the services</label>
+        <br>
+        <label class="button"><input type="submit" value="Submit"></label>
+    </form>
+
+</div>
+
+</main>
+
+<footer>
+    <div class="contactinfo">
+    <h2>Contact Information</h2>
+    <p>&#9993; info@scoots.com</p>
+    <p>&#9742; (+52)987-872-6686</p>
+    </div>
+    <div class="socialicon">
+    <a href="https://www.facebook.com/"><img src="/scoots/images/facebookicon.png" alt="Facebook Icon"></a>
+    <a href="https://www.instagram.com/"><img src="/scoots/images/instagramicon.png" alt="Instagram Icon"></a>
+    <a href="https://twitter.com/?lang=en"><img src="/scoots/images/twittericon.png" alt="Twitter Icon"></a>
+    </div>
+    <div class="">
+    <p>&#169; <span id="currentyear"></span> Maida Garcia | Updated: <span id="currentdate"></span> | <a href="/scoots/resources.html">Resources</a></p>
+    </div>
+        
+</footer>
+<script src="/scoots/js/hamburger.js"></script>
+<script src="/scoots/js/lastupdate.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> 
+<script src="/scoots/js/webfontload.js"></script>
+</body>
+</html>
