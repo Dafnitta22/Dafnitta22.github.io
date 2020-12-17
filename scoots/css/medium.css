@@ -10,7 +10,6 @@ nav {
 nav ul {
     display: flex;
     flex-direction: row;
-    /*justify-content: center;*/
     list-style-type: none; 
     margin: 0;
     padding: 0;
@@ -112,6 +111,58 @@ nav ul li a:hover {
 .rentalsinfo section:hover {
     box-shadow: 0 0 70px #333;
 }
+
+.inforeq {
+    flex: 50%;
+    border: none;
+    padding: 40px;
+
+}
+
+
+
+.inforeq ul li {
+    line-height: 1.8rem;
+    padding: 10px 0;
+
+}
+
+
+.resercon {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+form legend {
+    font-size: 1.8rem;
+}
+.mainform {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 50%;
+    padding: 40px;
+
+}
+
+.mainform label {
+    padding: 0;
+}
+
+
+article {
+    padding: 50px;
+     
+}
+
+.tourspic {
+    float: right;
+    margin: 5px;
+    
+}
+
+
+
+
 
 footer {
     font-size: 0.9rem;

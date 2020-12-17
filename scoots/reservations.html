@@ -36,19 +36,20 @@
         </ul>
     </nav>
     <main>
+      <div class="resercon">
       <div class="inforeq">
           <h2>Information and Services</h2>
           <ul>
-              <li>A $50 security deposit is required to confirm reservations.</li>
-              <li>A valid drivers license is required in hand at time of rental.</li>
-              <li>No one under 12 years of age are allowed to ride on the scooters.</li>
-              <li>Fuel charge not included.</li>
-              <li>Unlimited mileage.</li>
-              <li>Liability insurance is free of charge.</li>
-              <li>Reservations rate requires 24 hour prior notification.</li>
-              <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</li>
-              <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li>
-              <li>Rentals may be returned to either location.</li>
+              <li>A $50 security deposit is required to confirm reservations.</li><br>
+              <li>A valid drivers license is required in hand at time of rental.</li><br>
+              <li>No one under 12 years of age are allowed to ride on the scooters.</li><br>
+              <li>Fuel charge not included.</li><br>
+              <li>Unlimited mileage.</li><br>
+              <li>Liability insurance is free of charge.</li><br>
+              <li>Reservations rate requires 24 hour prior notification.</li><br>
+              <li>Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.</li><br>
+              <li>Payment via Google Pay, cash, credit card, debit card, or PayPal.</li><br>
+              <li>Rentals may be returned to either location.</li><br>
           </ul>
 
       </div>  
@@ -59,9 +60,7 @@
             <label class="pudate" for="pudate">Pick-up Date<br>
             <input type="date" id="pudate" name="pudate">
             </label>
-
          <br>  
-         
             <label class="pulocation" for="location">Pick-up Location<br>
             <select id="ipulocation" name="npulocation" onchange="selectResponse()">
             <option value=""  disabled>Please Select</option>
@@ -130,15 +129,15 @@
         <br>
         <br>
         <label class="dorequest">Drop-off request<br></label>
-        <label class="sin"><input type="radio" name="user" value="yes">Yes</label><br>
-        <label class="sin"><input type="radio" name="user" value="maybe">Maybe</label><br>
-        <label class="sin"><input type="radio" name="user" value="no">No</label><br>
+        <label class="sin"><input type="radio" name="user" value="yes">Yes</label>
+        <label class="sin"><input type="radio" name="user" value="maybe">Maybe</label>
+        <label class="sin"><input type="radio" name="user" value="no">No</label>
 
         <br>
         
-        <legend>Special Accommodations or Comments</legend>
+        <label>Special Accommodations or Comments<br></label>
         <label class="acomments" for="comments">
-        <textarea id="comments" name="comments" rows="8" cols="40">Enter comments/location of your Drop-off request here...</textarea>
+        <textarea id="comments" name="comments" rows="6" cols="40">Enter comments/location of your Drop-off request here...</textarea>
         </label>
         
         
@@ -148,7 +147,7 @@
         <label class="button"><input type="submit" value="Submit"></label>
     </fieldset>
     </form>
-
+    </div>
 </div>
 
 </main>
