@@ -277,21 +277,21 @@ background-color: #e5e6e4;
 }
 /*---- Contact----*/
 
-.rcinfo {
-    background-color: white;
-    padding: 20px;
-}
 
-.loc h2{
-    padding: 0 20px;
-}
+
+
 .cont {
     background-color: #e5e6e4;
     margin: 0;
-    padding: 0;
+    padding:0;
 }
 
 
+
+/*
+.loc h2{
+    padding: 20px;
+}
 .centro {
     margin: 50px;
 }
@@ -299,10 +299,11 @@ background-color: #e5e6e4;
 .maya {
     margin: 50px;
 }
+
+*/
 .contactform label {
     display: flex;
     flex-direction: column;  
-    padding: 0 20px; 
 
 }
 

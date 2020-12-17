@@ -1,5 +1,5 @@
 @media only screen and (min-width: 54em) {
-     
+    
     nav ul {
         display: flex;
         flex-direction: row;
@@ -82,19 +82,25 @@
         
     }
 
-    .mainform {
+    .resercon {
         display: flex;
-        flex-wrap: wrap;
-        flex: 50%;
+        flex-direction: row-reverse;
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+       
+    }
+
+    .mainform {
         padding: 40px;
-    
+        
     }
     
     .inforeq {
-        flex: 50%;
         border: none;
-        padding: 10px;
-    
+        padding: 40px;
+       
+       
     }
 
    
@@ -110,28 +116,44 @@
         
     }
 
-    .rcinfo {
+    
+
+    .cont {
+        padding: 20px 200px;
+    }
+
+    
+    /*.rcinfo {
         background-color: white;
-        padding: 20px 280px;
+        padding: 20px 100px;
     }
 
     .loc h2{
-        padding: 0 280px;
+        padding: 0 100px;
     }
 
+
     .centro {
-        margin: 0 280px;
+        margin: 0 100px;
+    }
+
+    .centro p {
+        width: 300px;
     }
     
     .maya {
         margin: 0 120px 0 20px;
     }
 
+    .maya p {
+        width: 400px;
+    }
+
     
     .contactform {
-        padding: 10px 280px 10px 280px;
+        padding: 10px 100px 10px 100px;
        
-    }
+    }*/
     
 
    
