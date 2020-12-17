@@ -59,17 +59,18 @@ nav ul li a:hover {
     margin: 0 20px 0 0;
 }
 
-.breserve button {
+.breserve {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 250px;
+    width: 218px;
     padding: 10px 20px;
+    
 }
 
-.breserve button a {
+.homeb {
     font-size: 25px;
 }
 
@@ -112,18 +113,13 @@ nav ul li a:hover {
     box-shadow: 0 0 70px #333;
 }
 
-.inforeq {
-    flex: 50%;
-    border: none;
-    padding: 40px;
 
-}
 
 
 
 .inforeq ul li {
     line-height: 1.8rem;
-    padding: 10px 0;
+    padding: 10px;
 
 }
 
@@ -134,13 +130,21 @@ nav ul li a:hover {
 }
 
 form legend {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 .mainform {
     display: flex;
     flex-wrap: wrap;
     flex: 50%;
-    padding: 40px;
+    padding: 20px;
+
+}
+
+.inforeq {
+    flex: 50%;
+    border: none;
+    padding: 10px;
 
 }
 
@@ -171,15 +175,35 @@ article {
    margin-right: auto;
 }
 
-.loc {
+.loc h2{
+    padding: 0 20px;
+}
+
+.centro {
+    margin: 0 80px;
+}
+
+.maya {
+    margin: 0 80px;
+}
+
+.contactform {
     padding: 20px;
 }
+
+.contactform label {
+    padding: 0 50px 0 40px; 
+
+}
+
 
 
 
 footer {
     font-size: 0.9rem;
 }
+
+
 
 
 

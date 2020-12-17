@@ -28,9 +28,6 @@ header {
 main {
     background-color: white;
     margin: 0 auto;
-   
-  
- 
 }
 
 /*----Navigation-----*/
@@ -139,22 +136,30 @@ nav ul li .active a {
 
 /*------Reserve Button----*/
 
-.breserve button {
+.breserve {
     
      text-align: center;
      padding: 15px 37px;
      background-color: #FAD3B3;
-     width: 100%;
+     width: auto;
+     border: 2px groove #FAD3B3;
 }
 
-.breserve button a {
 
+
+.homeb {
     text-decoration: none;
     color: black;
     font-weight: bolder;
     font-size: 20px;
 
 }
+
+.homeb:hover {
+    color: white;
+}
+
+
 
 /*-----Forecast-----*/
 
@@ -182,6 +187,7 @@ nav ul li .active a {
 .suminfo {
     background-color:#e5e6e4;
     border: 1px groove #e5e6e4; 
+    padding: 10px;
     
 }
 
@@ -243,12 +249,13 @@ nav ul li .active a {
 
 .mainform {
     background-color: #e5e6e4;
+    
 
 }
 
 form legend {
     font-size: 1.5rem;
-    font-weight: 590;
+    font-weight: 600;
     text-align: left;
     padding: 10px 5px;
 }
@@ -270,19 +277,49 @@ background-color: #e5e6e4;
 }
 /*---- Contact----*/
 
+.rcinfo {
+    background-color: white;
+    padding: 20px;
+}
+
+.loc h2{
+    padding: 0 20px;
+}
 .cont {
     background-color: #e5e6e4;
     margin: 0;
+    padding: 0;
 }
 
 
+.centro {
+    margin: 50px;
+}
 
+.maya {
+    margin: 50px;
+}
 .contactform label {
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;  
+    padding: 0 20px; 
 
 }
 
+
+.contactform legend {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.button>input:hover {
+   color: white;
+}
+
+.confirmation {
+    padding: 20px 40px;
+    font-weight: 500;
+}
 
 
 footer {
@@ -297,3 +334,17 @@ footer {
     height: 3rem;
    
 }
+
+.resources {
+    padding: 40px;
+}
+
+.nresources {
+    text-decoration: none;
+    color: black;
+}
+
+.nresources:hover {
+    color: white;
+}
+

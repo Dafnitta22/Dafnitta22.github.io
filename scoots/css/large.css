@@ -47,16 +47,16 @@
     }
     
 
-    .breserve button {
+    .breserve {
         display: block;
         margin-left: auto;
         margin-right: auto;
         margin-top: 20px;
         margin-bottom: 20px;
-        width: 300px;
+        width: 225px;
     }
 
-    .breserve button a {
+    .homeb {
         font-size: 28px;
     }
 
@@ -82,13 +82,22 @@
         
     }
 
-
-
     .mainform {
-       flex: 50%;
-       padding: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 50%;
+        padding: 40px;
     
     }
+    
+    .inforeq {
+        flex: 50%;
+        border: none;
+        padding: 10px;
+    
+    }
+
+   
 
     article {
         padding: 80px;
@@ -101,11 +110,27 @@
         
     }
 
-    .inforeq {
-       flex: 50%;
-       padding: 60px;
+    .rcinfo {
+        background-color: white;
+        padding: 20px 280px;
+    }
+
+    .loc h2{
+        padding: 0 280px;
+    }
+
+    .centro {
+        margin: 0 280px;
+    }
+    
+    .maya {
+        margin: 0 120px 0 20px;
+    }
 
     
+    .contactform {
+        padding: 10px 280px 10px 280px;
+       
     }
     
 
