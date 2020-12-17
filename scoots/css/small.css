@@ -268,22 +268,21 @@ border: 1px groove #e5e6e4;
 background-color: #e5e6e4;
     
 }
+/*---- Contact----*/
 
-.contact {
-    padding: 20px;
+.cont {
     background-color: #e5e6e4;
+    margin: 0;
 }
 
 
 
 .contactform label {
     display: flex;
-    flex-direction: column;
-    width: auto;
-   
-    
+    flex-direction: column;   
 
 }
+
 
 
 footer {
