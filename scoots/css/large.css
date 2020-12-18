@@ -1,5 +1,6 @@
 @media only screen and (min-width: 54em) {
-    
+
+
     nav ul {
         display: flex;
         flex-direction: row;
@@ -107,12 +108,13 @@
 
     article {
         padding: 80px;
-         
+        height: 300px; 
     }
 
     .tourspic {
         float: right;
-        margin: 10px;
+        margin: 20px;
+        
         
     }
 
